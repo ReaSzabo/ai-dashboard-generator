@@ -47,24 +47,85 @@ const loadLoginData = () => {
   }
 };
 
+// Helper functions for dynamic date ranges
+function formatDate(date) {
+  return date.toISOString().split('T')[0];
+}
+
+function getLastWeekRange(today) {
+  const lastSunday = new Date(today);
+  lastSunday.setDate(today.getDate() - today.getDay() - 7);
+  const lastSaturday = new Date(lastSunday);
+  lastSaturday.setDate(lastSunday.getDate() + 6);
+  return `${formatDate(lastSunday)} és ${formatDate(lastSaturday)} között`;
+}
+
+function getLastYearRange(today) {
+  const lastYear = today.getFullYear() - 1;
+  return `${lastYear}-01-01 és ${lastYear}-12-31 között`;
+}
+
+function getCurrentYearRange(today) {
+  const currentYear = today.getFullYear();
+  return `${currentYear}-01-01 és ${currentYear}-12-31 között`;
+}
+
+function getLastMonthRange(today) {
+  const lastMonth = new Date(today.getFullYear(), today.getMonth() - 1, 1);
+  const lastMonthEnd = new Date(today.getFullYear(), today.getMonth(), 0);
+  return `${formatDate(lastMonth)} és ${formatDate(lastMonthEnd)} között`;
+}
+
+function getCurrentMonthRange(today) {
+  const currentMonthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+  const currentMonthEnd = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+  return `${formatDate(currentMonthStart)} és ${formatDate(currentMonthEnd)} között`;
+}
+
 // Parse natural language query using OpenAI
 async function parseNaturalLanguageQuery(userMessage) {
   try {
+    // Get current date dynamically
+    const today = new Date();
+    const todayString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
+    
     const prompt = `
+Mai dátum: ${todayString}
+
 Elemezd az alábbi felhasználói kérést és határozd meg a következő paramétereket egy JSON objektumban:
 
 - dataType: "registrations" vagy "logins" (a kérés alapján döntsd el, hogy regisztrációkra vagy bejelentkezésekre kíváncsi)
-- startDate: YYYY-MM-DD formátumban (ha nem adott meg, használj 2025-01-01-et)
-- endDate: YYYY-MM-DD formátumban (ha nem adott meg, használj 2025-03-10-et)
+- startDate: YYYY-MM-DD formátumban (ha nem adott meg, használj 2024-01-01-et)
+- endDate: YYYY-MM-DD formátumban (ha nem adott meg, használj 2025-12-31-et)
 - registrationType: "facebook", "gmail", "email" vagy null (ha mindegyikre kíváncsi)
+- chartType: "line", "bar" vagy "pie" (diagram típus meghatározása)
+- aggregationType: "breakdown" vagy "total" (adatok megjelenítési módja)
 
-Elérhető adatok: 2025-01-01 és 2025-03-10 között vannak regisztrációs és bejelentkezési adatok.
+Elérhető adatok: 2024-01-01 és 2025-12-31 között vannak regisztrációs és bejelentkezési adatok.
 Típusok: facebook, gmail, email
+
+Relatív dátumok kezelése (mai dátum: ${todayString}):
+- "múlt héten" → ${getLastWeekRange(today)}
+- "tavaly" → ${getLastYearRange(today)}
+- "ez év" vagy "idén" → ${getCurrentYearRange(today)}
+- "múlt hónap" → ${getLastMonthRange(today)}
+- "ez a hónap" → ${getCurrentMonthRange(today)}
 
 FONTOS szabályok dataType meghatározásához:
 - Ha a szövegben "login", "bejelentkezés", "belépés", "bejel", "session", "signin", "sign in", "log in", "log-in" szerepel → dataType: "logins"
 - Ha a szövegben "regisztráció", "reg", "új felhasználó", "új user", "signup", "sign up" szerepel → dataType: "registrations"
 - Ha nem egyértelmű, akkor "registrations"
+
+FONTOS szabályok chartType meghatározásához:
+- Ha a szöveg időbeli trendet, változást, idősorozatot kér ("időben", "trend", "változás", "hogyan alakult", "fejlődés", "időszak") → chartType: "line"
+- Ha összehasonlítást, kategóriákat kér ("összehasonlítás", "melyik a legjobb", "rangsor", "összeg", "kategóriánként") → chartType: "bar"  
+- Ha arányokat, részesedést kér ("arány", "százalék", "részesedés", "milyen része", "kör", "pie") → chartType: "pie"
+- Ha nem egyértelmű vagy általános kérés, akkor "line"
+
+FONTOS szabályok aggregationType meghatározásához:
+- Ha külön vonalakat/oszlopokat kér típusonként ("külön", "facebook és gmail", "típusonként", "lebontva", "egyenként", "mindegyik külön", "összehasonlítás") → aggregationType: "breakdown"
+- Ha összesített adatot kér ("összesen", "összes", "teljes", "mindent együtt", "összesítve", "total") → aggregationType: "total"
+- Ha nem egyértelmű, akkor "total"
 
 Felhasználói kérés: "${userMessage}"
 
@@ -103,9 +164,11 @@ Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
     // Validate and set defaults
     return {
       dataType: parsedParams.dataType || 'registrations',
-      startDate: parsedParams.startDate || '2025-01-01',
-      endDate: parsedParams.endDate || '2025-03-10',
-      registrationType: parsedParams.registrationType || null
+      startDate: parsedParams.startDate || '2024-01-01',
+      endDate: parsedParams.endDate || '2025-12-31',
+      registrationType: parsedParams.registrationType || null,
+      chartType: parsedParams.chartType || 'line',
+      aggregationType: parsedParams.aggregationType || 'total'
     };
     
   } catch (error) {
@@ -113,15 +176,17 @@ Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
     // Return default parameters in case of error
     return {
       dataType: 'registrations',
-      startDate: '2025-01-01',
-      endDate: '2025-03-10',
-      registrationType: null
+      startDate: '2024-01-01',
+      endDate: '2025-12-31',
+      registrationType: null,
+      chartType: 'line',
+      aggregationType: 'total'
     };
   }
 }
 
-// POST endpoint for /getData - natural language query endpoint
-app.post('/getData', async (req, res) => {
+// POST endpoint for /api/generate-chart - natural language query endpoint
+app.post('/api/generate-chart', async (req, res) => {
   const { query } = req.body;
   
   // Validate input
@@ -176,9 +241,10 @@ app.post('/getData', async (req, res) => {
         [dataKey]: typeFilteredData,
         type: parsedParams.registrationType,
         dataType: parsedParams.dataType,
+        chartType: parsedParams.chartType,
+        aggregationType: parsedParams.aggregationType,
         dateRange: { startDate: parsedParams.startDate, endDate: parsedParams.endDate },
-        originalQuery: query,
-        parsedParams: parsedParams
+        originalQuery: query
       });
     } else {
       // Return all registration types
@@ -187,9 +253,10 @@ app.post('/getData', async (req, res) => {
         [dataKey]: filteredData,
         type: 'all',
         dataType: parsedParams.dataType,
+        chartType: parsedParams.chartType,
+        aggregationType: parsedParams.aggregationType,
         dateRange: { startDate: parsedParams.startDate, endDate: parsedParams.endDate },
-        originalQuery: query,
-        parsedParams: parsedParams
+        originalQuery: query
       });
     }
     
