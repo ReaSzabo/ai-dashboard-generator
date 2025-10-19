@@ -1,418 +1,4390 @@
 {
   "logins": [
     {
-      "date": "2025-01-01",
-      "facebook": 90,
-      "gmail": 134,
-      "email": 46
-    },
-    {
-      "date": "2025-01-02",
-      "facebook": 104,
-      "gmail": 148,
-      "email": 38
-    },
-    {
-      "date": "2025-01-03",
-      "facebook": 76,
-      "gmail": 110,
-      "email": 62
-    },
-    {
-      "date": "2025-01-04",
-      "facebook": 122,
-      "gmail": 164,
-      "email": 54
-    },
-    {
-      "date": "2025-01-05",
-      "facebook": 96,
-      "gmail": 138,
-      "email": 66
-    },
-    {
-      "date": "2025-01-06",
-      "facebook": 142,
-      "gmail": 190,
-      "email": 82
-    },
-    {
-      "date": "2025-01-07",
-      "facebook": 112,
-      "gmail": 156,
-      "email": 58
-    },
-    {
-      "date": "2025-01-08",
-      "facebook": 98,
-      "gmail": 126,
-      "email": 70
-    },
-    {
-      "date": "2025-01-09",
-      "facebook": 128,
-      "gmail": 178,
+      "date": "2024-01-01",
+      "facebook": 92,
+      "gmail": 102,
       "email": 52
     },
     {
-      "date": "2025-01-10",
-      "facebook": 106,
+      "date": "2024-01-02",
+      "facebook": 73,
+      "gmail": 134,
+      "email": 44
+    },
+    {
+      "date": "2024-01-03",
+      "facebook": 74,
+      "gmail": 129,
+      "email": 41
+    },
+    {
+      "date": "2024-01-04",
+      "facebook": 78,
+      "gmail": 112,
+      "email": 45
+    },
+    {
+      "date": "2024-01-05",
+      "facebook": 91,
+      "gmail": 121,
+      "email": 40
+    },
+    {
+      "date": "2024-01-06",
+      "facebook": 61,
+      "gmail": 73,
+      "email": 27
+    },
+    {
+      "date": "2024-01-07",
+      "facebook": 55,
+      "gmail": 70,
+      "email": 33
+    },
+    {
+      "date": "2024-01-08",
+      "facebook": 88,
+      "gmail": 124,
+      "email": 50
+    },
+    {
+      "date": "2024-01-09",
+      "facebook": 69,
+      "gmail": 113,
+      "email": 47
+    },
+    {
+      "date": "2024-01-10",
+      "facebook": 79,
+      "gmail": 109,
+      "email": 48
+    },
+    {
+      "date": "2024-01-11",
+      "facebook": 69,
+      "gmail": 90,
+      "email": 52
+    },
+    {
+      "date": "2024-01-12",
+      "facebook": 87,
+      "gmail": 131,
+      "email": 47
+    },
+    {
+      "date": "2024-01-13",
+      "facebook": 54,
+      "gmail": 76,
+      "email": 33
+    },
+    {
+      "date": "2024-01-14",
+      "facebook": 59,
+      "gmail": 71,
+      "email": 39
+    },
+    {
+      "date": "2024-01-15",
+      "facebook": 84,
+      "gmail": 104,
+      "email": 56
+    },
+    {
+      "date": "2024-01-16",
+      "facebook": 92,
+      "gmail": 112,
+      "email": 52
+    },
+    {
+      "date": "2024-01-17",
+      "facebook": 92,
+      "gmail": 97,
+      "email": 40
+    },
+    {
+      "date": "2024-01-18",
+      "facebook": 77,
+      "gmail": 123,
+      "email": 55
+    },
+    {
+      "date": "2024-01-19",
+      "facebook": 97,
+      "gmail": 123,
+      "email": 48
+    },
+    {
+      "date": "2024-01-20",
+      "facebook": 59,
+      "gmail": 92,
+      "email": 37
+    },
+    {
+      "date": "2024-01-21",
+      "facebook": 58,
+      "gmail": 78,
+      "email": 32
+    },
+    {
+      "date": "2024-01-22",
+      "facebook": 85,
+      "gmail": 111,
+      "email": 51
+    },
+    {
+      "date": "2024-01-23",
+      "facebook": 69,
+      "gmail": 121,
+      "email": 50
+    },
+    {
+      "date": "2024-01-24",
+      "facebook": 86,
+      "gmail": 129,
+      "email": 43
+    },
+    {
+      "date": "2024-01-25",
+      "facebook": 86,
+      "gmail": 88,
+      "email": 54
+    },
+    {
+      "date": "2024-01-26",
+      "facebook": 89,
+      "gmail": 96,
+      "email": 52
+    },
+    {
+      "date": "2024-01-27",
+      "facebook": 55,
+      "gmail": 92,
+      "email": 33
+    },
+    {
+      "date": "2024-01-28",
+      "facebook": 56,
+      "gmail": 96,
+      "email": 31
+    },
+    {
+      "date": "2024-01-29",
+      "facebook": 69,
+      "gmail": 114,
+      "email": 46
+    },
+    {
+      "date": "2024-01-30",
+      "facebook": 74,
+      "gmail": 93,
+      "email": 44
+    },
+    {
+      "date": "2024-01-31",
+      "facebook": 67,
+      "gmail": 114,
+      "email": 43
+    },
+    {
+      "date": "2024-02-01",
+      "facebook": 96,
+      "gmail": 115,
+      "email": 50
+    },
+    {
+      "date": "2024-02-02",
+      "facebook": 83,
+      "gmail": 128,
+      "email": 45
+    },
+    {
+      "date": "2024-02-03",
+      "facebook": 59,
+      "gmail": 75,
+      "email": 32
+    },
+    {
+      "date": "2024-02-04",
+      "facebook": 65,
+      "gmail": 88,
+      "email": 34
+    },
+    {
+      "date": "2024-02-05",
+      "facebook": 80,
+      "gmail": 96,
+      "email": 53
+    },
+    {
+      "date": "2024-02-06",
+      "facebook": 65,
+      "gmail": 144,
+      "email": 59
+    },
+    {
+      "date": "2024-02-07",
+      "facebook": 90,
+      "gmail": 119,
+      "email": 50
+    },
+    {
+      "date": "2024-02-08",
+      "facebook": 90,
+      "gmail": 140,
+      "email": 55
+    },
+    {
+      "date": "2024-02-09",
+      "facebook": 76,
+      "gmail": 140,
+      "email": 49
+    },
+    {
+      "date": "2024-02-10",
+      "facebook": 63,
+      "gmail": 90,
+      "email": 33
+    },
+    {
+      "date": "2024-02-11",
+      "facebook": 56,
+      "gmail": 89,
+      "email": 38
+    },
+    {
+      "date": "2024-02-12",
+      "facebook": 92,
+      "gmail": 111,
+      "email": 56
+    },
+    {
+      "date": "2024-02-13",
+      "facebook": 86,
+      "gmail": 106,
+      "email": 47
+    },
+    {
+      "date": "2024-02-14",
+      "facebook": 93,
+      "gmail": 134,
+      "email": 54
+    },
+    {
+      "date": "2024-02-15",
+      "facebook": 78,
+      "gmail": 124,
+      "email": 64
+    },
+    {
+      "date": "2024-02-16",
+      "facebook": 85,
+      "gmail": 154,
+      "email": 50
+    },
+    {
+      "date": "2024-02-17",
+      "facebook": 56,
+      "gmail": 80,
+      "email": 43
+    },
+    {
+      "date": "2024-02-18",
+      "facebook": 67,
+      "gmail": 88,
+      "email": 30
+    },
+    {
+      "date": "2024-02-19",
+      "facebook": 93,
       "gmail": 142,
+      "email": 55
+    },
+    {
+      "date": "2024-02-20",
+      "facebook": 87,
+      "gmail": 130,
+      "email": 44
+    },
+    {
+      "date": "2024-02-21",
+      "facebook": 88,
+      "gmail": 125,
+      "email": 49
+    },
+    {
+      "date": "2024-02-22",
+      "facebook": 95,
+      "gmail": 128,
+      "email": 43
+    },
+    {
+      "date": "2024-02-23",
+      "facebook": 94,
+      "gmail": 125,
+      "email": 42
+    },
+    {
+      "date": "2024-02-24",
+      "facebook": 62,
+      "gmail": 75,
+      "email": 38
+    },
+    {
+      "date": "2024-02-25",
+      "facebook": 57,
+      "gmail": 101,
+      "email": 36
+    },
+    {
+      "date": "2024-02-26",
+      "facebook": 75,
+      "gmail": 130,
+      "email": 52
+    },
+    {
+      "date": "2024-02-27",
+      "facebook": 81,
+      "gmail": 109,
+      "email": 45
+    },
+    {
+      "date": "2024-02-28",
+      "facebook": 86,
+      "gmail": 125,
+      "email": 64
+    },
+    {
+      "date": "2024-02-29",
+      "facebook": 85,
+      "gmail": 139,
+      "email": 58
+    },
+    {
+      "date": "2024-03-01",
+      "facebook": 90,
+      "gmail": 126,
+      "email": 55
+    },
+    {
+      "date": "2024-03-02",
+      "facebook": 56,
+      "gmail": 104,
+      "email": 40
+    },
+    {
+      "date": "2024-03-03",
+      "facebook": 69,
+      "gmail": 100,
+      "email": 39
+    },
+    {
+      "date": "2024-03-04",
+      "facebook": 102,
+      "gmail": 135,
+      "email": 54
+    },
+    {
+      "date": "2024-03-05",
+      "facebook": 87,
+      "gmail": 130,
+      "email": 53
+    },
+    {
+      "date": "2024-03-06",
+      "facebook": 111,
+      "gmail": 132,
+      "email": 68
+    },
+    {
+      "date": "2024-03-07",
+      "facebook": 111,
+      "gmail": 133,
+      "email": 57
+    },
+    {
+      "date": "2024-03-08",
+      "facebook": 83,
+      "gmail": 124,
+      "email": 52
+    },
+    {
+      "date": "2024-03-09",
+      "facebook": 56,
+      "gmail": 102,
+      "email": 46
+    },
+    {
+      "date": "2024-03-10",
+      "facebook": 77,
+      "gmail": 109,
+      "email": 38
+    },
+    {
+      "date": "2024-03-11",
+      "facebook": 103,
+      "gmail": 142,
+      "email": 57
+    },
+    {
+      "date": "2024-03-12",
+      "facebook": 100,
+      "gmail": 135,
+      "email": 61
+    },
+    {
+      "date": "2024-03-13",
+      "facebook": 99,
+      "gmail": 119,
+      "email": 66
+    },
+    {
+      "date": "2024-03-14",
+      "facebook": 89,
+      "gmail": 123,
+      "email": 58
+    },
+    {
+      "date": "2024-03-15",
+      "facebook": 99,
+      "gmail": 132,
+      "email": 72
+    },
+    {
+      "date": "2024-03-16",
+      "facebook": 67,
+      "gmail": 78,
+      "email": 50
+    },
+    {
+      "date": "2024-03-17",
+      "facebook": 73,
+      "gmail": 103,
+      "email": 42
+    },
+    {
+      "date": "2024-03-18",
+      "facebook": 97,
+      "gmail": 140,
+      "email": 53
+    },
+    {
+      "date": "2024-03-19",
+      "facebook": 104,
+      "gmail": 110,
+      "email": 64
+    },
+    {
+      "date": "2024-03-20",
+      "facebook": 95,
+      "gmail": 142,
+      "email": 65
+    },
+    {
+      "date": "2024-03-21",
+      "facebook": 119,
+      "gmail": 131,
+      "email": 62
+    },
+    {
+      "date": "2024-03-22",
+      "facebook": 107,
+      "gmail": 144,
+      "email": 57
+    },
+    {
+      "date": "2024-03-23",
+      "facebook": 81,
+      "gmail": 100,
+      "email": 50
+    },
+    {
+      "date": "2024-03-24",
+      "facebook": 75,
+      "gmail": 110,
+      "email": 40
+    },
+    {
+      "date": "2024-03-25",
+      "facebook": 89,
+      "gmail": 135,
+      "email": 67
+    },
+    {
+      "date": "2024-03-26",
+      "facebook": 99,
+      "gmail": 138,
       "email": 76
     },
     {
-      "date": "2025-01-11",
+      "date": "2024-03-27",
+      "facebook": 95,
+      "gmail": 156,
+      "email": 68
+    },
+    {
+      "date": "2024-03-28",
+      "facebook": 99,
+      "gmail": 134,
+      "email": 65
+    },
+    {
+      "date": "2024-03-29",
+      "facebook": 103,
+      "gmail": 163,
+      "email": 64
+    },
+    {
+      "date": "2024-03-30",
+      "facebook": 61,
+      "gmail": 94,
+      "email": 45
+    },
+    {
+      "date": "2024-03-31",
+      "facebook": 78,
+      "gmail": 102,
+      "email": 36
+    },
+    {
+      "date": "2024-03-31",
+      "facebook": 111,
+      "gmail": 158,
+      "email": 69
+    },
+    {
+      "date": "2024-04-01",
+      "facebook": 95,
+      "gmail": 123,
+      "email": 73
+    },
+    {
+      "date": "2024-04-02",
+      "facebook": 93,
+      "gmail": 163,
+      "email": 53
+    },
+    {
+      "date": "2024-04-03",
+      "facebook": 116,
+      "gmail": 155,
+      "email": 55
+    },
+    {
+      "date": "2024-04-04",
+      "facebook": 105,
+      "gmail": 154,
+      "email": 67
+    },
+    {
+      "date": "2024-04-05",
+      "facebook": 75,
+      "gmail": 106,
+      "email": 44
+    },
+    {
+      "date": "2024-04-06",
+      "facebook": 79,
+      "gmail": 102,
+      "email": 55
+    },
+    {
+      "date": "2024-04-07",
+      "facebook": 108,
+      "gmail": 149,
+      "email": 75
+    },
+    {
+      "date": "2024-04-08",
+      "facebook": 110,
+      "gmail": 163,
+      "email": 56
+    },
+    {
+      "date": "2024-04-09",
+      "facebook": 106,
+      "gmail": 150,
+      "email": 63
+    },
+    {
+      "date": "2024-04-10",
+      "facebook": 93,
+      "gmail": 134,
+      "email": 53
+    },
+    {
+      "date": "2024-04-11",
+      "facebook": 98,
+      "gmail": 139,
+      "email": 54
+    },
+    {
+      "date": "2024-04-12",
       "facebook": 84,
+      "gmail": 120,
+      "email": 44
+    },
+    {
+      "date": "2024-04-13",
+      "facebook": 72,
+      "gmail": 101,
+      "email": 52
+    },
+    {
+      "date": "2024-04-14",
+      "facebook": 120,
+      "gmail": 184,
+      "email": 63
+    },
+    {
+      "date": "2024-04-15",
+      "facebook": 122,
+      "gmail": 146,
+      "email": 60
+    },
+    {
+      "date": "2024-04-16",
+      "facebook": 120,
+      "gmail": 135,
+      "email": 68
+    },
+    {
+      "date": "2024-04-17",
+      "facebook": 119,
+      "gmail": 146,
+      "email": 65
+    },
+    {
+      "date": "2024-04-18",
+      "facebook": 93,
+      "gmail": 162,
+      "email": 70
+    },
+    {
+      "date": "2024-04-19",
+      "facebook": 71,
+      "gmail": 110,
+      "email": 40
+    },
+    {
+      "date": "2024-04-20",
+      "facebook": 77,
+      "gmail": 117,
+      "email": 42
+    },
+    {
+      "date": "2024-04-21",
+      "facebook": 112,
+      "gmail": 165,
+      "email": 69
+    },
+    {
+      "date": "2024-04-22",
+      "facebook": 111,
+      "gmail": 157,
+      "email": 68
+    },
+    {
+      "date": "2024-04-23",
+      "facebook": 112,
+      "gmail": 148,
+      "email": 64
+    },
+    {
+      "date": "2024-04-24",
+      "facebook": 111,
+      "gmail": 175,
+      "email": 60
+    },
+    {
+      "date": "2024-04-25",
+      "facebook": 136,
+      "gmail": 142,
+      "email": 63
+    },
+    {
+      "date": "2024-04-26",
+      "facebook": 80,
+      "gmail": 114,
+      "email": 45
+    },
+    {
+      "date": "2024-04-27",
+      "facebook": 75,
+      "gmail": 115,
+      "email": 56
+    },
+    {
+      "date": "2024-04-28",
+      "facebook": 120,
+      "gmail": 166,
+      "email": 59
+    },
+    {
+      "date": "2024-04-29",
+      "facebook": 107,
+      "gmail": 143,
+      "email": 58
+    },
+    {
+      "date": "2024-04-30",
+      "facebook": 96,
+      "gmail": 178,
+      "email": 57
+    },
+    {
+      "date": "2024-05-01",
+      "facebook": 110,
+      "gmail": 144,
+      "email": 68
+    },
+    {
+      "date": "2024-05-02",
+      "facebook": 111,
+      "gmail": 163,
+      "email": 66
+    },
+    {
+      "date": "2024-05-03",
+      "facebook": 81,
+      "gmail": 136,
+      "email": 55
+    },
+    {
+      "date": "2024-05-04",
+      "facebook": 91,
+      "gmail": 126,
+      "email": 53
+    },
+    {
+      "date": "2024-05-05",
+      "facebook": 118,
+      "gmail": 170,
+      "email": 75
+    },
+    {
+      "date": "2024-05-06",
+      "facebook": 120,
+      "gmail": 179,
+      "email": 76
+    },
+    {
+      "date": "2024-05-07",
+      "facebook": 126,
+      "gmail": 170,
+      "email": 67
+    },
+    {
+      "date": "2024-05-08",
+      "facebook": 103,
+      "gmail": 193,
+      "email": 84
+    },
+    {
+      "date": "2024-05-09",
+      "facebook": 123,
+      "gmail": 155,
+      "email": 70
+    },
+    {
+      "date": "2024-05-10",
+      "facebook": 65,
+      "gmail": 140,
+      "email": 42
+    },
+    {
+      "date": "2024-05-11",
+      "facebook": 68,
+      "gmail": 107,
+      "email": 46
+    },
+    {
+      "date": "2024-05-12",
+      "facebook": 120,
+      "gmail": 174,
+      "email": 77
+    },
+    {
+      "date": "2024-05-13",
+      "facebook": 128,
+      "gmail": 188,
+      "email": 87
+    },
+    {
+      "date": "2024-05-14",
+      "facebook": 126,
+      "gmail": 182,
+      "email": 76
+    },
+    {
+      "date": "2024-05-15",
+      "facebook": 117,
+      "gmail": 200,
+      "email": 66
+    },
+    {
+      "date": "2024-05-16",
+      "facebook": 112,
+      "gmail": 164,
+      "email": 67
+    },
+    {
+      "date": "2024-05-17",
+      "facebook": 96,
+      "gmail": 121,
+      "email": 45
+    },
+    {
+      "date": "2024-05-18",
+      "facebook": 87,
+      "gmail": 118,
+      "email": 49
+    },
+    {
+      "date": "2024-05-19",
+      "facebook": 114,
+      "gmail": 180,
+      "email": 68
+    },
+    {
+      "date": "2024-05-20",
+      "facebook": 118,
+      "gmail": 163,
+      "email": 75
+    },
+    {
+      "date": "2024-05-21",
+      "facebook": 128,
+      "gmail": 201,
+      "email": 82
+    },
+    {
+      "date": "2024-05-22",
+      "facebook": 117,
+      "gmail": 191,
+      "email": 72
+    },
+    {
+      "date": "2024-05-23",
+      "facebook": 133,
+      "gmail": 205,
+      "email": 59
+    },
+    {
+      "date": "2024-05-24",
+      "facebook": 76,
+      "gmail": 104,
+      "email": 48
+    },
+    {
+      "date": "2024-05-25",
+      "facebook": 73,
+      "gmail": 145,
+      "email": 53
+    },
+    {
+      "date": "2024-05-26",
+      "facebook": 140,
+      "gmail": 158,
+      "email": 76
+    },
+    {
+      "date": "2024-05-27",
+      "facebook": 130,
+      "gmail": 175,
+      "email": 81
+    },
+    {
+      "date": "2024-05-28",
+      "facebook": 142,
+      "gmail": 189,
+      "email": 80
+    },
+    {
+      "date": "2024-05-29",
+      "facebook": 140,
+      "gmail": 168,
+      "email": 76
+    },
+    {
+      "date": "2024-05-30",
+      "facebook": 122,
+      "gmail": 147,
+      "email": 75
+    },
+    {
+      "date": "2024-05-31",
+      "facebook": 83,
+      "gmail": 135,
+      "email": 52
+    },
+    {
+      "date": "2024-06-01",
+      "facebook": 74,
+      "gmail": 149,
+      "email": 62
+    },
+    {
+      "date": "2024-06-02",
+      "facebook": 158,
+      "gmail": 196,
+      "email": 64
+    },
+    {
+      "date": "2024-06-03",
+      "facebook": 112,
+      "gmail": 194,
+      "email": 78
+    },
+    {
+      "date": "2024-06-04",
+      "facebook": 122,
+      "gmail": 169,
+      "email": 74
+    },
+    {
+      "date": "2024-06-05",
+      "facebook": 160,
+      "gmail": 216,
+      "email": 78
+    },
+    {
+      "date": "2024-06-06",
+      "facebook": 121,
+      "gmail": 161,
+      "email": 72
+    },
+    {
+      "date": "2024-06-07",
+      "facebook": 109,
+      "gmail": 123,
+      "email": 55
+    },
+    {
+      "date": "2024-06-08",
+      "facebook": 81,
+      "gmail": 140,
+      "email": 48
+    },
+    {
+      "date": "2024-06-09",
+      "facebook": 123,
+      "gmail": 169,
+      "email": 73
+    },
+    {
+      "date": "2024-06-10",
+      "facebook": 137,
+      "gmail": 186,
+      "email": 82
+    },
+    {
+      "date": "2024-06-11",
+      "facebook": 121,
+      "gmail": 171,
+      "email": 82
+    },
+    {
+      "date": "2024-06-12",
+      "facebook": 121,
+      "gmail": 167,
+      "email": 75
+    },
+    {
+      "date": "2024-06-13",
+      "facebook": 121,
+      "gmail": 186,
+      "email": 86
+    },
+    {
+      "date": "2024-06-14",
+      "facebook": 84,
+      "gmail": 111,
+      "email": 46
+    },
+    {
+      "date": "2024-06-15",
+      "facebook": 98,
+      "gmail": 124,
+      "email": 56
+    },
+    {
+      "date": "2024-06-16",
+      "facebook": 136,
+      "gmail": 169,
+      "email": 83
+    },
+    {
+      "date": "2024-06-17",
+      "facebook": 135,
+      "gmail": 152,
+      "email": 75
+    },
+    {
+      "date": "2024-06-18",
+      "facebook": 133,
+      "gmail": 163,
+      "email": 87
+    },
+    {
+      "date": "2024-06-19",
+      "facebook": 112,
+      "gmail": 178,
+      "email": 70
+    },
+    {
+      "date": "2024-06-20",
+      "facebook": 130,
+      "gmail": 175,
+      "email": 93
+    },
+    {
+      "date": "2024-06-21",
+      "facebook": 94,
+      "gmail": 147,
+      "email": 45
+    },
+    {
+      "date": "2024-06-22",
+      "facebook": 86,
+      "gmail": 108,
+      "email": 56
+    },
+    {
+      "date": "2024-06-23",
+      "facebook": 121,
+      "gmail": 189,
+      "email": 91
+    },
+    {
+      "date": "2024-06-24",
+      "facebook": 160,
+      "gmail": 187,
+      "email": 80
+    },
+    {
+      "date": "2024-06-25",
+      "facebook": 117,
+      "gmail": 178,
+      "email": 73
+    },
+    {
+      "date": "2024-06-26",
+      "facebook": 125,
+      "gmail": 205,
+      "email": 66
+    },
+    {
+      "date": "2024-06-27",
+      "facebook": 153,
+      "gmail": 164,
+      "email": 85
+    },
+    {
+      "date": "2024-06-28",
+      "facebook": 74,
+      "gmail": 143,
+      "email": 55
+    },
+    {
+      "date": "2024-06-29",
+      "facebook": 92,
+      "gmail": 126,
+      "email": 58
+    },
+    {
+      "date": "2024-06-30",
+      "facebook": 129,
+      "gmail": 195,
+      "email": 67
+    },
+    {
+      "date": "2024-07-01",
+      "facebook": 142,
+      "gmail": 214,
+      "email": 80
+    },
+    {
+      "date": "2024-07-02",
+      "facebook": 131,
+      "gmail": 186,
+      "email": 71
+    },
+    {
+      "date": "2024-07-03",
+      "facebook": 124,
+      "gmail": 202,
+      "email": 74
+    },
+    {
+      "date": "2024-07-04",
+      "facebook": 159,
+      "gmail": 155,
+      "email": 75
+    },
+    {
+      "date": "2024-07-05",
+      "facebook": 114,
+      "gmail": 130,
+      "email": 61
+    },
+    {
+      "date": "2024-07-06",
+      "facebook": 86,
+      "gmail": 118,
+      "email": 58
+    },
+    {
+      "date": "2024-07-07",
+      "facebook": 141,
+      "gmail": 192,
+      "email": 80
+    },
+    {
+      "date": "2024-07-08",
+      "facebook": 127,
+      "gmail": 178,
+      "email": 78
+    },
+    {
+      "date": "2024-07-09",
+      "facebook": 134,
+      "gmail": 175,
+      "email": 77
+    },
+    {
+      "date": "2024-07-10",
+      "facebook": 157,
+      "gmail": 214,
+      "email": 72
+    },
+    {
+      "date": "2024-07-11",
+      "facebook": 129,
+      "gmail": 179,
+      "email": 89
+    },
+    {
+      "date": "2024-07-12",
+      "facebook": 71,
+      "gmail": 123,
+      "email": 57
+    },
+    {
+      "date": "2024-07-13",
+      "facebook": 89,
+      "gmail": 133,
+      "email": 55
+    },
+    {
+      "date": "2024-07-14",
+      "facebook": 147,
+      "gmail": 174,
+      "email": 96
+    },
+    {
+      "date": "2024-07-15",
+      "facebook": 125,
+      "gmail": 171,
+      "email": 75
+    },
+    {
+      "date": "2024-07-16",
+      "facebook": 138,
+      "gmail": 148,
+      "email": 96
+    },
+    {
+      "date": "2024-07-17",
+      "facebook": 123,
+      "gmail": 172,
+      "email": 77
+    },
+    {
+      "date": "2024-07-18",
+      "facebook": 119,
+      "gmail": 175,
+      "email": 72
+    },
+    {
+      "date": "2024-07-19",
+      "facebook": 83,
+      "gmail": 114,
+      "email": 53
+    },
+    {
+      "date": "2024-07-20",
+      "facebook": 104,
+      "gmail": 138,
+      "email": 48
+    },
+    {
+      "date": "2024-07-21",
+      "facebook": 106,
+      "gmail": 192,
+      "email": 93
+    },
+    {
+      "date": "2024-07-22",
+      "facebook": 131,
+      "gmail": 178,
+      "email": 80
+    },
+    {
+      "date": "2024-07-23",
+      "facebook": 125,
+      "gmail": 169,
+      "email": 91
+    },
+    {
+      "date": "2024-07-24",
+      "facebook": 127,
+      "gmail": 173,
+      "email": 86
+    },
+    {
+      "date": "2024-07-25",
+      "facebook": 146,
+      "gmail": 157,
+      "email": 65
+    },
+    {
+      "date": "2024-07-26",
+      "facebook": 104,
+      "gmail": 133,
+      "email": 57
+    },
+    {
+      "date": "2024-07-27",
+      "facebook": 107,
+      "gmail": 113,
+      "email": 52
+    },
+    {
+      "date": "2024-07-28",
+      "facebook": 132,
+      "gmail": 224,
+      "email": 78
+    },
+    {
+      "date": "2024-07-29",
+      "facebook": 124,
+      "gmail": 207,
+      "email": 83
+    },
+    {
+      "date": "2024-07-30",
+      "facebook": 140,
+      "gmail": 187,
+      "email": 88
+    },
+    {
+      "date": "2024-07-31",
+      "facebook": 135,
+      "gmail": 172,
+      "email": 82
+    },
+    {
+      "date": "2024-08-01",
+      "facebook": 111,
+      "gmail": 199,
+      "email": 78
+    },
+    {
+      "date": "2024-08-02",
+      "facebook": 96,
+      "gmail": 107,
+      "email": 55
+    },
+    {
+      "date": "2024-08-03",
+      "facebook": 86,
+      "gmail": 137,
+      "email": 49
+    },
+    {
+      "date": "2024-08-04",
+      "facebook": 117,
+      "gmail": 187,
+      "email": 80
+    },
+    {
+      "date": "2024-08-05",
+      "facebook": 106,
+      "gmail": 184,
+      "email": 87
+    },
+    {
+      "date": "2024-08-06",
+      "facebook": 143,
+      "gmail": 156,
+      "email": 96
+    },
+    {
+      "date": "2024-08-07",
+      "facebook": 108,
+      "gmail": 190,
+      "email": 74
+    },
+    {
+      "date": "2024-08-08",
+      "facebook": 127,
+      "gmail": 157,
+      "email": 80
+    },
+    {
+      "date": "2024-08-09",
+      "facebook": 74,
+      "gmail": 117,
+      "email": 53
+    },
+    {
+      "date": "2024-08-10",
+      "facebook": 94,
+      "gmail": 150,
+      "email": 49
+    },
+    {
+      "date": "2024-08-11",
+      "facebook": 130,
+      "gmail": 193,
+      "email": 77
+    },
+    {
+      "date": "2024-08-12",
+      "facebook": 134,
+      "gmail": 205,
+      "email": 66
+    },
+    {
+      "date": "2024-08-13",
+      "facebook": 125,
+      "gmail": 154,
+      "email": 91
+    },
+    {
+      "date": "2024-08-14",
+      "facebook": 125,
+      "gmail": 169,
+      "email": 68
+    },
+    {
+      "date": "2024-08-15",
+      "facebook": 157,
+      "gmail": 180,
+      "email": 58
+    },
+    {
+      "date": "2024-08-16",
+      "facebook": 86,
+      "gmail": 113,
+      "email": 51
+    },
+    {
+      "date": "2024-08-17",
+      "facebook": 82,
+      "gmail": 147,
+      "email": 52
+    },
+    {
+      "date": "2024-08-18",
+      "facebook": 100,
+      "gmail": 159,
+      "email": 75
+    },
+    {
+      "date": "2024-08-19",
+      "facebook": 126,
+      "gmail": 166,
+      "email": 76
+    },
+    {
+      "date": "2024-08-20",
+      "facebook": 128,
+      "gmail": 181,
+      "email": 83
+    },
+    {
+      "date": "2024-08-21",
+      "facebook": 122,
+      "gmail": 171,
+      "email": 77
+    },
+    {
+      "date": "2024-08-22",
+      "facebook": 153,
+      "gmail": 154,
+      "email": 73
+    },
+    {
+      "date": "2024-08-23",
+      "facebook": 84,
+      "gmail": 132,
+      "email": 55
+    },
+    {
+      "date": "2024-08-24",
+      "facebook": 86,
+      "gmail": 127,
+      "email": 50
+    },
+    {
+      "date": "2024-08-25",
+      "facebook": 111,
+      "gmail": 151,
+      "email": 68
+    },
+    {
+      "date": "2024-08-26",
+      "facebook": 138,
+      "gmail": 171,
+      "email": 68
+    },
+    {
+      "date": "2024-08-27",
+      "facebook": 115,
+      "gmail": 179,
+      "email": 83
+    },
+    {
+      "date": "2024-08-28",
+      "facebook": 129,
+      "gmail": 150,
+      "email": 67
+    },
+    {
+      "date": "2024-08-29",
+      "facebook": 147,
+      "gmail": 146,
+      "email": 72
+    },
+    {
+      "date": "2024-08-30",
+      "facebook": 85,
+      "gmail": 121,
+      "email": 51
+    },
+    {
+      "date": "2024-08-31",
+      "facebook": 86,
+      "gmail": 103,
+      "email": 60
+    },
+    {
+      "date": "2024-09-01",
+      "facebook": 122,
+      "gmail": 201,
+      "email": 89
+    },
+    {
+      "date": "2024-09-02",
+      "facebook": 148,
+      "gmail": 158,
+      "email": 69
+    },
+    {
+      "date": "2024-09-03",
+      "facebook": 131,
+      "gmail": 189,
+      "email": 69
+    },
+    {
+      "date": "2024-09-04",
+      "facebook": 109,
+      "gmail": 185,
+      "email": 70
+    },
+    {
+      "date": "2024-09-05",
+      "facebook": 111,
+      "gmail": 139,
+      "email": 81
+    },
+    {
+      "date": "2024-09-06",
+      "facebook": 77,
+      "gmail": 111,
+      "email": 55
+    },
+    {
+      "date": "2024-09-07",
+      "facebook": 91,
+      "gmail": 115,
+      "email": 58
+    },
+    {
+      "date": "2024-09-08",
+      "facebook": 134,
+      "gmail": 188,
+      "email": 68
+    },
+    {
+      "date": "2024-09-09",
+      "facebook": 123,
+      "gmail": 168,
+      "email": 75
+    },
+    {
+      "date": "2024-09-10",
+      "facebook": 143,
+      "gmail": 175,
+      "email": 81
+    },
+    {
+      "date": "2024-09-11",
+      "facebook": 112,
+      "gmail": 190,
+      "email": 72
+    },
+    {
+      "date": "2024-09-12",
+      "facebook": 122,
+      "gmail": 158,
+      "email": 78
+    },
+    {
+      "date": "2024-09-13",
+      "facebook": 85,
+      "gmail": 137,
+      "email": 59
+    },
+    {
+      "date": "2024-09-14",
+      "facebook": 77,
+      "gmail": 125,
+      "email": 47
+    },
+    {
+      "date": "2024-09-15",
+      "facebook": 134,
+      "gmail": 158,
+      "email": 79
+    },
+    {
+      "date": "2024-09-16",
+      "facebook": 122,
+      "gmail": 164,
+      "email": 70
+    },
+    {
+      "date": "2024-09-17",
+      "facebook": 103,
+      "gmail": 186,
+      "email": 65
+    },
+    {
+      "date": "2024-09-18",
+      "facebook": 118,
+      "gmail": 167,
+      "email": 60
+    },
+    {
+      "date": "2024-09-19",
+      "facebook": 131,
+      "gmail": 174,
+      "email": 83
+    },
+    {
+      "date": "2024-09-20",
+      "facebook": 81,
+      "gmail": 96,
+      "email": 41
+    },
+    {
+      "date": "2024-09-21",
+      "facebook": 74,
+      "gmail": 120,
+      "email": 52
+    },
+    {
+      "date": "2024-09-22",
+      "facebook": 121,
+      "gmail": 157,
+      "email": 73
+    },
+    {
+      "date": "2024-09-23",
+      "facebook": 106,
+      "gmail": 151,
+      "email": 60
+    },
+    {
+      "date": "2024-09-24",
+      "facebook": 97,
+      "gmail": 180,
+      "email": 68
+    },
+    {
+      "date": "2024-09-25",
+      "facebook": 109,
+      "gmail": 191,
+      "email": 56
+    },
+    {
+      "date": "2024-09-26",
+      "facebook": 119,
+      "gmail": 148,
+      "email": 70
+    },
+    {
+      "date": "2024-09-27",
+      "facebook": 74,
+      "gmail": 96,
+      "email": 55
+    },
+    {
+      "date": "2024-09-28",
+      "facebook": 99,
+      "gmail": 102,
+      "email": 41
+    },
+    {
+      "date": "2024-09-29",
+      "facebook": 126,
+      "gmail": 134,
+      "email": 59
+    },
+    {
+      "date": "2024-09-30",
+      "facebook": 132,
+      "gmail": 185,
+      "email": 68
+    },
+    {
+      "date": "2024-10-01",
+      "facebook": 116,
+      "gmail": 189,
+      "email": 64
+    },
+    {
+      "date": "2024-10-02",
+      "facebook": 104,
+      "gmail": 132,
+      "email": 73
+    },
+    {
+      "date": "2024-10-03",
+      "facebook": 117,
+      "gmail": 188,
+      "email": 68
+    },
+    {
+      "date": "2024-10-04",
+      "facebook": 78,
+      "gmail": 121,
+      "email": 47
+    },
+    {
+      "date": "2024-10-05",
+      "facebook": 87,
+      "gmail": 103,
+      "email": 49
+    },
+    {
+      "date": "2024-10-06",
+      "facebook": 98,
+      "gmail": 179,
+      "email": 76
+    },
+    {
+      "date": "2024-10-07",
+      "facebook": 100,
+      "gmail": 155,
+      "email": 75
+    },
+    {
+      "date": "2024-10-08",
+      "facebook": 120,
+      "gmail": 142,
+      "email": 54
+    },
+    {
+      "date": "2024-10-09",
+      "facebook": 107,
+      "gmail": 156,
+      "email": 53
+    },
+    {
+      "date": "2024-10-10",
+      "facebook": 103,
+      "gmail": 167,
+      "email": 71
+    },
+    {
+      "date": "2024-10-11",
+      "facebook": 69,
+      "gmail": 131,
+      "email": 46
+    },
+    {
+      "date": "2024-10-12",
+      "facebook": 70,
+      "gmail": 129,
+      "email": 51
+    },
+    {
+      "date": "2024-10-13",
+      "facebook": 106,
+      "gmail": 161,
+      "email": 66
+    },
+    {
+      "date": "2024-10-14",
+      "facebook": 94,
+      "gmail": 169,
+      "email": 81
+    },
+    {
+      "date": "2024-10-15",
+      "facebook": 85,
+      "gmail": 174,
+      "email": 69
+    },
+    {
+      "date": "2024-10-16",
+      "facebook": 118,
+      "gmail": 129,
+      "email": 56
+    },
+    {
+      "date": "2024-10-17",
+      "facebook": 95,
+      "gmail": 156,
+      "email": 68
+    },
+    {
+      "date": "2024-10-18",
+      "facebook": 80,
+      "gmail": 96,
+      "email": 41
+    },
+    {
+      "date": "2024-10-19",
+      "facebook": 80,
+      "gmail": 90,
+      "email": 49
+    },
+    {
+      "date": "2024-10-20",
+      "facebook": 102,
+      "gmail": 150,
+      "email": 67
+    },
+    {
+      "date": "2024-10-21",
+      "facebook": 113,
+      "gmail": 155,
+      "email": 58
+    },
+    {
+      "date": "2024-10-22",
+      "facebook": 99,
+      "gmail": 151,
+      "email": 65
+    },
+    {
+      "date": "2024-10-23",
+      "facebook": 107,
+      "gmail": 133,
+      "email": 64
+    },
+    {
+      "date": "2024-10-24",
+      "facebook": 101,
+      "gmail": 151,
+      "email": 66
+    },
+    {
+      "date": "2024-10-25",
+      "facebook": 88,
+      "gmail": 88,
+      "email": 41
+    },
+    {
+      "date": "2024-10-26",
+      "facebook": 76,
+      "gmail": 101,
+      "email": 44
+    },
+    {
+      "date": "2024-10-28",
+      "facebook": 110,
+      "gmail": 147,
+      "email": 71
+    },
+    {
+      "date": "2024-10-29",
+      "facebook": 110,
+      "gmail": 154,
+      "email": 69
+    },
+    {
+      "date": "2024-10-30",
+      "facebook": 102,
+      "gmail": 157,
+      "email": 65
+    },
+    {
+      "date": "2024-10-31",
+      "facebook": 108,
+      "gmail": 143,
+      "email": 70
+    },
+    {
+      "date": "2024-11-01",
+      "facebook": 122,
+      "gmail": 138,
+      "email": 71
+    },
+    {
+      "date": "2024-11-02",
+      "facebook": 60,
+      "gmail": 85,
+      "email": 42
+    },
+    {
+      "date": "2024-11-03",
+      "facebook": 68,
+      "gmail": 118,
+      "email": 44
+    },
+    {
+      "date": "2024-11-04",
+      "facebook": 87,
+      "gmail": 146,
+      "email": 56
+    },
+    {
+      "date": "2024-11-05",
+      "facebook": 108,
+      "gmail": 167,
+      "email": 51
+    },
+    {
+      "date": "2024-11-06",
+      "facebook": 93,
       "gmail": 116,
+      "email": 62
+    },
+    {
+      "date": "2024-11-07",
+      "facebook": 98,
+      "gmail": 144,
+      "email": 76
+    },
+    {
+      "date": "2024-11-08",
+      "facebook": 102,
+      "gmail": 147,
+      "email": 62
+    },
+    {
+      "date": "2024-11-09",
+      "facebook": 62,
+      "gmail": 92,
+      "email": 36
+    },
+    {
+      "date": "2024-11-10",
+      "facebook": 63,
+      "gmail": 101,
+      "email": 43
+    },
+    {
+      "date": "2024-11-11",
+      "facebook": 100,
+      "gmail": 143,
+      "email": 61
+    },
+    {
+      "date": "2024-11-12",
+      "facebook": 110,
+      "gmail": 122,
+      "email": 67
+    },
+    {
+      "date": "2024-11-13",
+      "facebook": 112,
+      "gmail": 166,
+      "email": 56
+    },
+    {
+      "date": "2024-11-14",
+      "facebook": 95,
+      "gmail": 124,
+      "email": 54
+    },
+    {
+      "date": "2024-11-15",
+      "facebook": 94,
+      "gmail": 143,
+      "email": 65
+    },
+    {
+      "date": "2024-11-16",
+      "facebook": 65,
+      "gmail": 89,
+      "email": 51
+    },
+    {
+      "date": "2024-11-17",
+      "facebook": 56,
+      "gmail": 85,
+      "email": 39
+    },
+    {
+      "date": "2024-11-18",
+      "facebook": 95,
+      "gmail": 149,
+      "email": 64
+    },
+    {
+      "date": "2024-11-19",
+      "facebook": 86,
+      "gmail": 168,
+      "email": 48
+    },
+    {
+      "date": "2024-11-20",
+      "facebook": 87,
+      "gmail": 138,
+      "email": 54
+    },
+    {
+      "date": "2024-11-21",
+      "facebook": 107,
+      "gmail": 138,
+      "email": 53
+    },
+    {
+      "date": "2024-11-22",
+      "facebook": 102,
+      "gmail": 135,
+      "email": 60
+    },
+    {
+      "date": "2024-11-23",
+      "facebook": 60,
+      "gmail": 103,
+      "email": 39
+    },
+    {
+      "date": "2024-11-24",
+      "facebook": 57,
+      "gmail": 85,
+      "email": 43
+    },
+    {
+      "date": "2024-11-25",
+      "facebook": 100,
+      "gmail": 142,
+      "email": 52
+    },
+    {
+      "date": "2024-11-26",
+      "facebook": 83,
+      "gmail": 109,
+      "email": 53
+    },
+    {
+      "date": "2024-11-27",
+      "facebook": 88,
+      "gmail": 133,
+      "email": 62
+    },
+    {
+      "date": "2024-11-28",
+      "facebook": 78,
+      "gmail": 140,
+      "email": 54
+    },
+    {
+      "date": "2024-11-29",
+      "facebook": 93,
+      "gmail": 158,
+      "email": 61
+    },
+    {
+      "date": "2024-11-30",
+      "facebook": 67,
+      "gmail": 91,
+      "email": 38
+    },
+    {
+      "date": "2024-12-01",
+      "facebook": 64,
+      "gmail": 87,
+      "email": 33
+    },
+    {
+      "date": "2024-12-02",
+      "facebook": 117,
+      "gmail": 132,
+      "email": 72
+    },
+    {
+      "date": "2024-12-03",
+      "facebook": 111,
+      "gmail": 121,
+      "email": 48
+    },
+    {
+      "date": "2024-12-04",
+      "facebook": 97,
+      "gmail": 129,
+      "email": 67
+    },
+    {
+      "date": "2024-12-05",
+      "facebook": 79,
+      "gmail": 144,
+      "email": 59
+    },
+    {
+      "date": "2024-12-06",
+      "facebook": 90,
+      "gmail": 126,
+      "email": 52
+    },
+    {
+      "date": "2024-12-07",
+      "facebook": 58,
+      "gmail": 107,
+      "email": 46
+    },
+    {
+      "date": "2024-12-08",
+      "facebook": 59,
+      "gmail": 97,
+      "email": 41
+    },
+    {
+      "date": "2024-12-09",
+      "facebook": 89,
+      "gmail": 134,
+      "email": 50
+    },
+    {
+      "date": "2024-12-10",
+      "facebook": 93,
+      "gmail": 131,
+      "email": 51
+    },
+    {
+      "date": "2024-12-11",
+      "facebook": 83,
+      "gmail": 116,
+      "email": 53
+    },
+    {
+      "date": "2024-12-12",
+      "facebook": 88,
+      "gmail": 135,
+      "email": 48
+    },
+    {
+      "date": "2024-12-13",
+      "facebook": 111,
+      "gmail": 132,
+      "email": 62
+    },
+    {
+      "date": "2024-12-14",
+      "facebook": 70,
+      "gmail": 82,
+      "email": 47
+    },
+    {
+      "date": "2024-12-15",
+      "facebook": 59,
+      "gmail": 95,
+      "email": 32
+    },
+    {
+      "date": "2024-12-16",
+      "facebook": 92,
+      "gmail": 125,
+      "email": 58
+    },
+    {
+      "date": "2024-12-17",
+      "facebook": 106,
+      "gmail": 126,
+      "email": 48
+    },
+    {
+      "date": "2024-12-18",
+      "facebook": 99,
+      "gmail": 150,
+      "email": 56
+    },
+    {
+      "date": "2024-12-19",
+      "facebook": 100,
+      "gmail": 120,
+      "email": 55
+    },
+    {
+      "date": "2024-12-20",
+      "facebook": 111,
+      "gmail": 143,
+      "email": 55
+    },
+    {
+      "date": "2024-12-21",
+      "facebook": 60,
+      "gmail": 104,
+      "email": 38
+    },
+    {
+      "date": "2024-12-22",
+      "facebook": 63,
+      "gmail": 100,
+      "email": 36
+    },
+    {
+      "date": "2024-12-23",
+      "facebook": 75,
+      "gmail": 105,
+      "email": 48
+    },
+    {
+      "date": "2024-12-24",
+      "facebook": 96,
+      "gmail": 122,
+      "email": 49
+    },
+    {
+      "date": "2024-12-25",
+      "facebook": 113,
+      "gmail": 137,
+      "email": 65
+    },
+    {
+      "date": "2024-12-26",
+      "facebook": 96,
+      "gmail": 105,
+      "email": 45
+    },
+    {
+      "date": "2024-12-27",
+      "facebook": 97,
+      "gmail": 151,
+      "email": 60
+    },
+    {
+      "date": "2024-12-28",
+      "facebook": 73,
+      "gmail": 95,
+      "email": 45
+    },
+    {
+      "date": "2024-12-29",
+      "facebook": 74,
+      "gmail": 96,
+      "email": 40
+    },
+    {
+      "date": "2024-12-30",
+      "facebook": 96,
+      "gmail": 124,
+      "email": 57
+    },
+    {
+      "date": "2024-12-31",
+      "facebook": 90,
+      "gmail": 112,
+      "email": 57
+    },
+    {
+      "date": "2025-01-01",
+      "facebook": 115,
+      "gmail": 123,
+      "email": 65
+    },
+    {
+      "date": "2025-01-02",
+      "facebook": 92,
+      "gmail": 128,
+      "email": 56
+    },
+    {
+      "date": "2025-01-03",
+      "facebook": 100,
+      "gmail": 153,
+      "email": 49
+    },
+    {
+      "date": "2025-01-04",
+      "facebook": 76,
+      "gmail": 92,
+      "email": 43
+    },
+    {
+      "date": "2025-01-05",
+      "facebook": 72,
+      "gmail": 90,
+      "email": 37
+    },
+    {
+      "date": "2025-01-06",
+      "facebook": 120,
+      "gmail": 150,
+      "email": 52
+    },
+    {
+      "date": "2025-01-07",
+      "facebook": 110,
+      "gmail": 150,
+      "email": 63
+    },
+    {
+      "date": "2025-01-08",
+      "facebook": 94,
+      "gmail": 132,
+      "email": 61
+    },
+    {
+      "date": "2025-01-09",
+      "facebook": 88,
+      "gmail": 136,
+      "email": 68
+    },
+    {
+      "date": "2025-01-10",
+      "facebook": 83,
+      "gmail": 153,
+      "email": 52
+    },
+    {
+      "date": "2025-01-11",
+      "facebook": 72,
+      "gmail": 83,
       "email": 48
     },
     {
       "date": "2025-01-12",
-      "facebook": 134,
-      "gmail": 182,
-      "email": 86
+      "facebook": 72,
+      "gmail": 96,
+      "email": 36
     },
     {
       "date": "2025-01-13",
-      "facebook": 110,
-      "gmail": 152,
-      "email": 64
+      "facebook": 86,
+      "gmail": 135,
+      "email": 53
     },
     {
       "date": "2025-01-14",
-      "facebook": 96,
-      "gmail": 128,
-      "email": 56
+      "facebook": 76,
+      "gmail": 140,
+      "email": 68
     },
     {
       "date": "2025-01-15",
-      "facebook": 146,
-      "gmail": 196,
-      "email": 90
+      "facebook": 99,
+      "gmail": 149,
+      "email": 51
     },
     {
       "date": "2025-01-16",
-      "facebook": 118,
-      "gmail": 162,
-      "email": 72
+      "facebook": 105,
+      "gmail": 111,
+      "email": 70
     },
     {
       "date": "2025-01-17",
-      "facebook": 92,
-      "gmail": 124,
+      "facebook": 75,
+      "gmail": 163,
       "email": 58
     },
     {
       "date": "2025-01-18",
-      "facebook": 136,
-      "gmail": 188,
-      "email": 84
+      "facebook": 71,
+      "gmail": 105,
+      "email": 40
     },
     {
       "date": "2025-01-19",
-      "facebook": 108,
-      "gmail": 146,
-      "email": 62
+      "facebook": 58,
+      "gmail": 105,
+      "email": 46
     },
     {
       "date": "2025-01-20",
-      "facebook": 122,
-      "gmail": 170,
-      "email": 74
-    },
-    {
-      "date": "2025-01-21",
-      "facebook": 94,
-      "gmail": 132,
-      "email": 50
-    },
-    {
-      "date": "2025-01-22",
-      "facebook": 144,
-      "gmail": 198,
-      "email": 96
-    },
-    {
-      "date": "2025-01-23",
-      "facebook": 116,
-      "gmail": 158,
-      "email": 68
-    },
-    {
-      "date": "2025-01-24",
-      "facebook": 102,
-      "gmail": 136,
-      "email": 52
-    },
-    {
-      "date": "2025-01-25",
-      "facebook": 130,
-      "gmail": 176,
-      "email": 82
-    },
-    {
-      "date": "2025-01-26",
-      "facebook": 86,
-      "gmail": 118,
-      "email": 66
-    },
-    {
-      "date": "2025-01-27",
-      "facebook": 138,
-      "gmail": 184,
-      "email": 78
-    },
-    {
-      "date": "2025-01-28",
-      "facebook": 112,
-      "gmail": 150,
-      "email": 56
-    },
-    {
-      "date": "2025-01-29",
-      "facebook": 100,
-      "gmail": 134,
-      "email": 70
-    },
-    {
-      "date": "2025-01-30",
-      "facebook": 148,
-      "gmail": 202,
-      "email": 92
-    },
-    {
-      "date": "2025-01-31",
-      "facebook": 124,
-      "gmail": 168,
-      "email": 76
-    },
-    {
-      "date": "2025-02-01",
-      "facebook": 96,
+      "facebook": 90,
       "gmail": 126,
-      "email": 58
-    },
-    {
-      "date": "2025-02-02",
-      "facebook": 132,
-      "gmail": 178,
-      "email": 84
-    },
-    {
-      "date": "2025-02-03",
-      "facebook": 106,
-      "gmail": 144,
-      "email": 62
-    },
-    {
-      "date": "2025-02-04",
-      "facebook": 118,
-      "gmail": 156,
       "email": 72
     },
     {
-      "date": "2025-02-05",
-      "facebook": 90,
-      "gmail": 122,
-      "email": 54
+      "date": "2025-01-21",
+      "facebook": 86,
+      "gmail": 135,
+      "email": 57
     },
     {
-      "date": "2025-02-06",
-      "facebook": 142,
-      "gmail": 192,
-      "email": 88
+      "date": "2025-01-22",
+      "facebook": 113,
+      "gmail": 155,
+      "email": 52
     },
     {
-      "date": "2025-02-07",
-      "facebook": 114,
-      "gmail": 152,
-      "email": 66
+      "date": "2025-01-23",
+      "facebook": 113,
+      "gmail": 139,
+      "email": 53
     },
     {
-      "date": "2025-02-08",
-      "facebook": 98,
-      "gmail": 130,
-      "email": 56
-    },
-    {
-      "date": "2025-02-09",
-      "facebook": 128,
-      "gmail": 174,
-      "email": 78
-    },
-    {
-      "date": "2025-02-10",
-      "facebook": 104,
-      "gmail": 140,
+      "date": "2025-01-24",
+      "facebook": 92,
+      "gmail": 114,
       "email": 64
     },
     {
+      "date": "2025-01-25",
+      "facebook": 85,
+      "gmail": 92,
+      "email": 38
+    },
+    {
+      "date": "2025-01-26",
+      "facebook": 70,
+      "gmail": 91,
+      "email": 37
+    },
+    {
+      "date": "2025-01-27",
+      "facebook": 94,
+      "gmail": 135,
+      "email": 55
+    },
+    {
+      "date": "2025-01-28",
+      "facebook": 88,
+      "gmail": 121,
+      "email": 60
+    },
+    {
+      "date": "2025-01-29",
+      "facebook": 103,
+      "gmail": 120,
+      "email": 54
+    },
+    {
+      "date": "2025-01-30",
+      "facebook": 92,
+      "gmail": 145,
+      "email": 60
+    },
+    {
+      "date": "2025-01-31",
+      "facebook": 92,
+      "gmail": 131,
+      "email": 62
+    },
+    {
+      "date": "2025-02-01",
+      "facebook": 84,
+      "gmail": 95,
+      "email": 45
+    },
+    {
+      "date": "2025-02-02",
+      "facebook": 64,
+      "gmail": 112,
+      "email": 37
+    },
+    {
+      "date": "2025-02-03",
+      "facebook": 108,
+      "gmail": 149,
+      "email": 66
+    },
+    {
+      "date": "2025-02-04",
+      "facebook": 91,
+      "gmail": 157,
+      "email": 58
+    },
+    {
+      "date": "2025-02-05",
+      "facebook": 100,
+      "gmail": 135,
+      "email": 63
+    },
+    {
+      "date": "2025-02-06",
+      "facebook": 87,
+      "gmail": 121,
+      "email": 61
+    },
+    {
+      "date": "2025-02-07",
+      "facebook": 110,
+      "gmail": 133,
+      "email": 62
+    },
+    {
+      "date": "2025-02-08",
+      "facebook": 84,
+      "gmail": 92,
+      "email": 45
+    },
+    {
+      "date": "2025-02-09",
+      "facebook": 75,
+      "gmail": 98,
+      "email": 48
+    },
+    {
+      "date": "2025-02-10",
+      "facebook": 106,
+      "gmail": 136,
+      "email": 54
+    },
+    {
       "date": "2025-02-11",
-      "facebook": 136,
-      "gmail": 186,
-      "email": 90
+      "facebook": 91,
+      "gmail": 136,
+      "email": 56
     },
     {
       "date": "2025-02-12",
+      "facebook": 123,
+      "gmail": 148,
+      "email": 55
+    },
+    {
+      "date": "2025-02-13",
+      "facebook": 103,
+      "gmail": 176,
+      "email": 58
+    },
+    {
+      "date": "2025-02-14",
+      "facebook": 87,
+      "gmail": 135,
+      "email": 57
+    },
+    {
+      "date": "2025-02-15",
+      "facebook": 75,
+      "gmail": 90,
+      "email": 45
+    },
+    {
+      "date": "2025-02-16",
+      "facebook": 60,
+      "gmail": 92,
+      "email": 41
+    },
+    {
+      "date": "2025-02-17",
+      "facebook": 113,
+      "gmail": 115,
+      "email": 54
+    },
+    {
+      "date": "2025-02-18",
+      "facebook": 85,
+      "gmail": 152,
+      "email": 52
+    },
+    {
+      "date": "2025-02-19",
+      "facebook": 123,
+      "gmail": 140,
+      "email": 54
+    },
+    {
+      "date": "2025-02-20",
+      "facebook": 100,
+      "gmail": 158,
+      "email": 50
+    },
+    {
+      "date": "2025-02-21",
+      "facebook": 120,
+      "gmail": 157,
+      "email": 62
+    },
+    {
+      "date": "2025-02-22",
+      "facebook": 90,
+      "gmail": 100,
+      "email": 47
+    },
+    {
+      "date": "2025-02-23",
+      "facebook": 84,
+      "gmail": 97,
+      "email": 46
+    },
+    {
+      "date": "2025-02-24",
+      "facebook": 93,
+      "gmail": 130,
+      "email": 79
+    },
+    {
+      "date": "2025-02-25",
+      "facebook": 111,
+      "gmail": 124,
+      "email": 64
+    },
+    {
+      "date": "2025-02-26",
+      "facebook": 119,
+      "gmail": 133,
+      "email": 55
+    },
+    {
+      "date": "2025-02-27",
+      "facebook": 103,
+      "gmail": 132,
+      "email": 71
+    },
+    {
+      "date": "2025-02-28",
+      "facebook": 129,
+      "gmail": 162,
+      "email": 74
+    },
+    {
+      "date": "2025-03-01",
+      "facebook": 73,
+      "gmail": 96,
+      "email": 51
+    },
+    {
+      "date": "2025-03-02",
+      "facebook": 75,
+      "gmail": 108,
+      "email": 47
+    },
+    {
+      "date": "2025-03-03",
+      "facebook": 124,
+      "gmail": 160,
+      "email": 62
+    },
+    {
+      "date": "2025-03-04",
+      "facebook": 104,
+      "gmail": 138,
+      "email": 55
+    },
+    {
+      "date": "2025-03-05",
+      "facebook": 126,
+      "gmail": 157,
+      "email": 76
+    },
+    {
+      "date": "2025-03-06",
       "facebook": 92,
+      "gmail": 144,
+      "email": 81
+    },
+    {
+      "date": "2025-03-07",
+      "facebook": 115,
+      "gmail": 145,
+      "email": 76
+    },
+    {
+      "date": "2025-03-08",
+      "facebook": 82,
+      "gmail": 108,
+      "email": 53
+    },
+    {
+      "date": "2025-03-09",
+      "facebook": 88,
+      "gmail": 123,
+      "email": 40
+    },
+    {
+      "date": "2025-03-10",
+      "facebook": 120,
+      "gmail": 140,
+      "email": 71
+    },
+    {
+      "date": "2025-03-11",
+      "facebook": 130,
+      "gmail": 143,
+      "email": 60
+    },
+    {
+      "date": "2025-03-12",
+      "facebook": 140,
+      "gmail": 132,
+      "email": 66
+    },
+    {
+      "date": "2025-03-13",
+      "facebook": 131,
+      "gmail": 186,
+      "email": 65
+    },
+    {
+      "date": "2025-03-14",
+      "facebook": 126,
+      "gmail": 144,
+      "email": 68
+    },
+    {
+      "date": "2025-03-15",
+      "facebook": 82,
+      "gmail": 99,
+      "email": 52
+    },
+    {
+      "date": "2025-03-16",
+      "facebook": 91,
+      "gmail": 110,
+      "email": 48
+    },
+    {
+      "date": "2025-03-17",
+      "facebook": 101,
+      "gmail": 134,
+      "email": 60
+    },
+    {
+      "date": "2025-03-18",
+      "facebook": 103,
+      "gmail": 168,
+      "email": 61
+    },
+    {
+      "date": "2025-03-19",
+      "facebook": 116,
+      "gmail": 165,
+      "email": 83
+    },
+    {
+      "date": "2025-03-20",
+      "facebook": 111,
+      "gmail": 181,
+      "email": 78
+    },
+    {
+      "date": "2025-03-21",
+      "facebook": 128,
+      "gmail": 149,
+      "email": 84
+    },
+    {
+      "date": "2025-03-22",
+      "facebook": 83,
+      "gmail": 119,
+      "email": 43
+    },
+    {
+      "date": "2025-03-23",
+      "facebook": 78,
+      "gmail": 111,
+      "email": 50
+    },
+    {
+      "date": "2025-03-24",
+      "facebook": 134,
+      "gmail": 185,
+      "email": 65
+    },
+    {
+      "date": "2025-03-25",
+      "facebook": 142,
+      "gmail": 172,
+      "email": 72
+    },
+    {
+      "date": "2025-03-26",
+      "facebook": 117,
+      "gmail": 133,
+      "email": 90
+    },
+    {
+      "date": "2025-03-27",
+      "facebook": 144,
+      "gmail": 136,
+      "email": 66
+    },
+    {
+      "date": "2025-03-28",
+      "facebook": 105,
+      "gmail": 203,
+      "email": 58
+    },
+    {
+      "date": "2025-03-29",
+      "facebook": 72,
+      "gmail": 124,
+      "email": 60
+    },
+    {
+      "date": "2025-03-30",
+      "facebook": 102,
       "gmail": 124,
       "email": 52
     },
     {
-      "date": "2025-02-13",
-      "facebook": 146,
-      "gmail": 196,
-      "email": 94
-    },
-    {
-      "date": "2025-02-14",
-      "facebook": 116,
-      "gmail": 162,
-      "email": 70
-    },
-    {
-      "date": "2025-02-15",
-      "facebook": 102,
-      "gmail": 138,
-      "email": 60
-    },
-    {
-      "date": "2025-02-16",
-      "facebook": 134,
-      "gmail": 180,
-      "email": 86
-    },
-    {
-      "date": "2025-02-17",
-      "facebook": 88,
-      "gmail": 120,
-      "email": 58
-    },
-    {
-      "date": "2025-02-18",
-      "facebook": 140,
-      "gmail": 188,
-      "email": 82
-    },
-    {
-      "date": "2025-02-19",
-      "facebook": 110,
-      "gmail": 148,
-      "email": 68
-    },
-    {
-      "date": "2025-02-20",
-      "facebook": 126,
-      "gmail": 170,
+      "date": "2025-03-30",
+      "facebook": 147,
+      "gmail": 183,
       "email": 76
     },
     {
-      "date": "2025-02-21",
-      "facebook": 94,
-      "gmail": 128,
-      "email": 54
+      "date": "2025-03-31",
+      "facebook": 145,
+      "gmail": 166,
+      "email": 82
     },
     {
-      "date": "2025-02-22",
-      "facebook": 148,
-      "gmail": 200,
-      "email": 98
+      "date": "2025-04-01",
+      "facebook": 143,
+      "gmail": 165,
+      "email": 90
     },
     {
-      "date": "2025-02-23",
-      "facebook": 118,
-      "gmail": 160,
-      "email": 72
+      "date": "2025-04-02",
+      "facebook": 115,
+      "gmail": 199,
+      "email": 67
     },
     {
-      "date": "2025-02-24",
-      "facebook": 100,
-      "gmail": 136,
-      "email": 56
-    },
-    {
-      "date": "2025-02-25",
-      "facebook": 132,
-      "gmail": 178,
-      "email": 84
-    },
-    {
-      "date": "2025-02-26",
-      "facebook": 86,
-      "gmail": 116,
-      "email": 62
-    },
-    {
-      "date": "2025-02-27",
-      "facebook": 142,
-      "gmail": 190,
+      "date": "2025-04-03",
+      "facebook": 128,
+      "gmail": 157,
       "email": 80
     },
     {
-      "date": "2025-02-28",
+      "date": "2025-04-04",
+      "facebook": 85,
+      "gmail": 130,
+      "email": 65
+    },
+    {
+      "date": "2025-04-05",
+      "facebook": 103,
+      "gmail": 131,
+      "email": 54
+    },
+    {
+      "date": "2025-04-06",
+      "facebook": 121,
+      "gmail": 200,
+      "email": 87
+    },
+    {
+      "date": "2025-04-07",
+      "facebook": 115,
+      "gmail": 199,
+      "email": 70
+    },
+    {
+      "date": "2025-04-08",
+      "facebook": 148,
+      "gmail": 187,
+      "email": 81
+    },
+    {
+      "date": "2025-04-09",
+      "facebook": 140,
+      "gmail": 189,
+      "email": 72
+    },
+    {
+      "date": "2025-04-10",
+      "facebook": 120,
+      "gmail": 214,
+      "email": 89
+    },
+    {
+      "date": "2025-04-11",
+      "facebook": 87,
+      "gmail": 119,
+      "email": 46
+    },
+    {
+      "date": "2025-04-12",
+      "facebook": 94,
+      "gmail": 123,
+      "email": 60
+    },
+    {
+      "date": "2025-04-13",
+      "facebook": 126,
+      "gmail": 195,
+      "email": 91
+    },
+    {
+      "date": "2025-04-14",
+      "facebook": 130,
+      "gmail": 187,
+      "email": 75
+    },
+    {
+      "date": "2025-04-15",
+      "facebook": 124,
+      "gmail": 197,
+      "email": 66
+    },
+    {
+      "date": "2025-04-16",
+      "facebook": 139,
+      "gmail": 185,
+      "email": 78
+    },
+    {
+      "date": "2025-04-17",
+      "facebook": 147,
+      "gmail": 170,
+      "email": 75
+    },
+    {
+      "date": "2025-04-18",
+      "facebook": 98,
+      "gmail": 129,
+      "email": 61
+    },
+    {
+      "date": "2025-04-19",
+      "facebook": 79,
+      "gmail": 117,
+      "email": 47
+    },
+    {
+      "date": "2025-04-20",
+      "facebook": 117,
+      "gmail": 164,
+      "email": 75
+    },
+    {
+      "date": "2025-04-21",
+      "facebook": 123,
+      "gmail": 168,
+      "email": 82
+    },
+    {
+      "date": "2025-04-22",
+      "facebook": 106,
+      "gmail": 164,
+      "email": 72
+    },
+    {
+      "date": "2025-04-23",
+      "facebook": 125,
+      "gmail": 207,
+      "email": 76
+    },
+    {
+      "date": "2025-04-24",
+      "facebook": 124,
+      "gmail": 184,
+      "email": 82
+    },
+    {
+      "date": "2025-04-25",
+      "facebook": 92,
+      "gmail": 129,
+      "email": 56
+    },
+    {
+      "date": "2025-04-26",
+      "facebook": 99,
+      "gmail": 131,
+      "email": 57
+    },
+    {
+      "date": "2025-04-27",
+      "facebook": 133,
+      "gmail": 217,
+      "email": 91
+    },
+    {
+      "date": "2025-04-28",
+      "facebook": 127,
+      "gmail": 180,
+      "email": 75
+    },
+    {
+      "date": "2025-04-29",
+      "facebook": 124,
+      "gmail": 181,
+      "email": 86
+    },
+    {
+      "date": "2025-04-30",
+      "facebook": 121,
+      "gmail": 206,
+      "email": 84
+    },
+    {
+      "date": "2025-05-01",
+      "facebook": 132,
+      "gmail": 201,
+      "email": 91
+    },
+    {
+      "date": "2025-05-02",
+      "facebook": 95,
+      "gmail": 117,
+      "email": 70
+    },
+    {
+      "date": "2025-05-03",
+      "facebook": 97,
+      "gmail": 138,
+      "email": 70
+    },
+    {
+      "date": "2025-05-04",
+      "facebook": 146,
+      "gmail": 191,
+      "email": 84
+    },
+    {
+      "date": "2025-05-05",
+      "facebook": 138,
+      "gmail": 174,
+      "email": 90
+    },
+    {
+      "date": "2025-05-06",
+      "facebook": 144,
+      "gmail": 197,
+      "email": 87
+    },
+    {
+      "date": "2025-05-07",
+      "facebook": 156,
+      "gmail": 237,
+      "email": 79
+    },
+    {
+      "date": "2025-05-08",
+      "facebook": 118,
+      "gmail": 201,
+      "email": 88
+    },
+    {
+      "date": "2025-05-09",
+      "facebook": 88,
+      "gmail": 141,
+      "email": 47
+    },
+    {
+      "date": "2025-05-10",
+      "facebook": 103,
+      "gmail": 128,
+      "email": 53
+    },
+    {
+      "date": "2025-05-11",
+      "facebook": 143,
+      "gmail": 199,
+      "email": 81
+    },
+    {
+      "date": "2025-05-12",
+      "facebook": 148,
+      "gmail": 170,
+      "email": 90
+    },
+    {
+      "date": "2025-05-13",
+      "facebook": 138,
+      "gmail": 210,
+      "email": 77
+    },
+    {
+      "date": "2025-05-14",
+      "facebook": 133,
+      "gmail": 193,
+      "email": 94
+    },
+    {
+      "date": "2025-05-15",
+      "facebook": 135,
+      "gmail": 173,
+      "email": 99
+    },
+    {
+      "date": "2025-05-16",
+      "facebook": 121,
+      "gmail": 140,
+      "email": 53
+    },
+    {
+      "date": "2025-05-17",
+      "facebook": 90,
+      "gmail": 133,
+      "email": 69
+    },
+    {
+      "date": "2025-05-18",
+      "facebook": 123,
+      "gmail": 193,
+      "email": 86
+    },
+    {
+      "date": "2025-05-19",
+      "facebook": 142,
+      "gmail": 159,
+      "email": 93
+    },
+    {
+      "date": "2025-05-20",
+      "facebook": 151,
+      "gmail": 238,
+      "email": 98
+    },
+    {
+      "date": "2025-05-21",
+      "facebook": 175,
+      "gmail": 194,
+      "email": 86
+    },
+    {
+      "date": "2025-05-22",
+      "facebook": 131,
+      "gmail": 205,
+      "email": 75
+    },
+    {
+      "date": "2025-05-23",
+      "facebook": 108,
+      "gmail": 165,
+      "email": 74
+    },
+    {
+      "date": "2025-05-24",
+      "facebook": 92,
+      "gmail": 145,
+      "email": 49
+    },
+    {
+      "date": "2025-05-25",
+      "facebook": 147,
+      "gmail": 230,
+      "email": 89
+    },
+    {
+      "date": "2025-05-26",
+      "facebook": 130,
+      "gmail": 185,
+      "email": 93
+    },
+    {
+      "date": "2025-05-27",
+      "facebook": 139,
+      "gmail": 196,
+      "email": 86
+    },
+    {
+      "date": "2025-05-28",
+      "facebook": 156,
+      "gmail": 214,
+      "email": 76
+    },
+    {
+      "date": "2025-05-29",
+      "facebook": 140,
+      "gmail": 224,
+      "email": 85
+    },
+    {
+      "date": "2025-05-30",
+      "facebook": 99,
+      "gmail": 145,
+      "email": 58
+    },
+    {
+      "date": "2025-05-31",
+      "facebook": 103,
+      "gmail": 158,
+      "email": 63
+    },
+    {
+      "date": "2025-06-01",
+      "facebook": 134,
+      "gmail": 191,
+      "email": 99
+    },
+    {
+      "date": "2025-06-02",
+      "facebook": 170,
+      "gmail": 250,
+      "email": 86
+    },
+    {
+      "date": "2025-06-03",
+      "facebook": 124,
+      "gmail": 205,
+      "email": 74
+    },
+    {
+      "date": "2025-06-04",
+      "facebook": 151,
+      "gmail": 178,
+      "email": 77
+    },
+    {
+      "date": "2025-06-05",
+      "facebook": 164,
+      "gmail": 240,
+      "email": 85
+    },
+    {
+      "date": "2025-06-06",
+      "facebook": 95,
+      "gmail": 171,
+      "email": 57
+    },
+    {
+      "date": "2025-06-07",
+      "facebook": 108,
+      "gmail": 151,
+      "email": 70
+    },
+    {
+      "date": "2025-06-08",
+      "facebook": 162,
+      "gmail": 240,
+      "email": 86
+    },
+    {
+      "date": "2025-06-09",
+      "facebook": 139,
+      "gmail": 177,
+      "email": 96
+    },
+    {
+      "date": "2025-06-10",
+      "facebook": 158,
+      "gmail": 229,
+      "email": 91
+    },
+    {
+      "date": "2025-06-11",
+      "facebook": 139,
+      "gmail": 208,
+      "email": 90
+    },
+    {
+      "date": "2025-06-12",
+      "facebook": 144,
+      "gmail": 210,
+      "email": 104
+    },
+    {
+      "date": "2025-06-13",
+      "facebook": 107,
+      "gmail": 152,
+      "email": 66
+    },
+    {
+      "date": "2025-06-14",
+      "facebook": 102,
+      "gmail": 163,
+      "email": 59
+    },
+    {
+      "date": "2025-06-15",
+      "facebook": 155,
+      "gmail": 251,
+      "email": 94
+    },
+    {
+      "date": "2025-06-16",
+      "facebook": 168,
+      "gmail": 217,
+      "email": 89
+    },
+    {
+      "date": "2025-06-17",
+      "facebook": 156,
+      "gmail": 253,
+      "email": 90
+    },
+    {
+      "date": "2025-06-18",
+      "facebook": 171,
+      "gmail": 208,
+      "email": 101
+    },
+    {
+      "date": "2025-06-19",
+      "facebook": 180,
+      "gmail": 240,
+      "email": 94
+    },
+    {
+      "date": "2025-06-20",
+      "facebook": 94,
+      "gmail": 180,
+      "email": 59
+    },
+    {
+      "date": "2025-06-21",
+      "facebook": 108,
+      "gmail": 152,
+      "email": 69
+    },
+    {
+      "date": "2025-06-22",
+      "facebook": 167,
+      "gmail": 218,
+      "email": 76
+    },
+    {
+      "date": "2025-06-23",
+      "facebook": 153,
+      "gmail": 195,
+      "email": 87
+    },
+    {
+      "date": "2025-06-24",
+      "facebook": 134,
+      "gmail": 196,
+      "email": 87
+    },
+    {
+      "date": "2025-06-25",
+      "facebook": 127,
+      "gmail": 200,
+      "email": 89
+    },
+    {
+      "date": "2025-06-26",
+      "facebook": 142,
+      "gmail": 211,
+      "email": 89
+    },
+    {
+      "date": "2025-06-27",
+      "facebook": 96,
+      "gmail": 136,
+      "email": 67
+    },
+    {
+      "date": "2025-06-28",
+      "facebook": 109,
+      "gmail": 160,
+      "email": 57
+    },
+    {
+      "date": "2025-06-29",
+      "facebook": 154,
+      "gmail": 205,
+      "email": 77
+    },
+    {
+      "date": "2025-06-30",
+      "facebook": 155,
+      "gmail": 225,
+      "email": 80
+    },
+    {
+      "date": "2025-07-01",
+      "facebook": 150,
+      "gmail": 195,
+      "email": 90
+    },
+    {
+      "date": "2025-07-02",
+      "facebook": 146,
+      "gmail": 183,
+      "email": 98
+    },
+    {
+      "date": "2025-07-03",
+      "facebook": 156,
+      "gmail": 169,
+      "email": 79
+    },
+    {
+      "date": "2025-07-04",
+      "facebook": 91,
+      "gmail": 145,
+      "email": 65
+    },
+    {
+      "date": "2025-07-05",
+      "facebook": 106,
+      "gmail": 144,
+      "email": 61
+    },
+    {
+      "date": "2025-07-06",
+      "facebook": 153,
+      "gmail": 223,
+      "email": 96
+    },
+    {
+      "date": "2025-07-07",
+      "facebook": 144,
+      "gmail": 223,
+      "email": 109
+    },
+    {
+      "date": "2025-07-08",
+      "facebook": 171,
+      "gmail": 203,
+      "email": 94
+    },
+    {
+      "date": "2025-07-09",
+      "facebook": 137,
+      "gmail": 222,
+      "email": 77
+    },
+    {
+      "date": "2025-07-10",
+      "facebook": 162,
+      "gmail": 242,
+      "email": 89
+    },
+    {
+      "date": "2025-07-11",
+      "facebook": 102,
+      "gmail": 148,
+      "email": 54
+    },
+    {
+      "date": "2025-07-12",
+      "facebook": 88,
+      "gmail": 169,
+      "email": 67
+    },
+    {
+      "date": "2025-07-13",
+      "facebook": 148,
+      "gmail": 232,
+      "email": 95
+    },
+    {
+      "date": "2025-07-14",
+      "facebook": 139,
+      "gmail": 231,
+      "email": 92
+    },
+    {
+      "date": "2025-07-15",
+      "facebook": 159,
+      "gmail": 238,
+      "email": 113
+    },
+    {
+      "date": "2025-07-16",
+      "facebook": 176,
+      "gmail": 187,
+      "email": 90
+    },
+    {
+      "date": "2025-07-17",
+      "facebook": 157,
+      "gmail": 220,
+      "email": 83
+    },
+    {
+      "date": "2025-07-18",
+      "facebook": 109,
+      "gmail": 149,
+      "email": 62
+    },
+    {
+      "date": "2025-07-19",
+      "facebook": 107,
+      "gmail": 163,
+      "email": 74
+    },
+    {
+      "date": "2025-07-20",
+      "facebook": 126,
+      "gmail": 257,
+      "email": 104
+    },
+    {
+      "date": "2025-07-21",
+      "facebook": 152,
+      "gmail": 224,
+      "email": 85
+    },
+    {
+      "date": "2025-07-22",
+      "facebook": 166,
+      "gmail": 259,
+      "email": 80
+    },
+    {
+      "date": "2025-07-23",
+      "facebook": 161,
+      "gmail": 178,
+      "email": 83
+    },
+    {
+      "date": "2025-07-24",
+      "facebook": 165,
+      "gmail": 216,
+      "email": 91
+    },
+    {
+      "date": "2025-07-25",
+      "facebook": 101,
+      "gmail": 139,
+      "email": 60
+    },
+    {
+      "date": "2025-07-26",
+      "facebook": 103,
+      "gmail": 151,
+      "email": 59
+    },
+    {
+      "date": "2025-07-27",
+      "facebook": 171,
+      "gmail": 200,
+      "email": 83
+    },
+    {
+      "date": "2025-07-28",
+      "facebook": 148,
+      "gmail": 257,
+      "email": 88
+    },
+    {
+      "date": "2025-07-29",
+      "facebook": 138,
+      "gmail": 197,
+      "email": 102
+    },
+    {
+      "date": "2025-07-30",
+      "facebook": 140,
+      "gmail": 222,
+      "email": 88
+    },
+    {
+      "date": "2025-07-31",
+      "facebook": 158,
+      "gmail": 184,
+      "email": 99
+    },
+    {
+      "date": "2025-08-01",
+      "facebook": 98,
+      "gmail": 145,
+      "email": 59
+    },
+    {
+      "date": "2025-08-02",
+      "facebook": 121,
+      "gmail": 184,
+      "email": 58
+    },
+    {
+      "date": "2025-08-03",
+      "facebook": 132,
+      "gmail": 169,
+      "email": 79
+    },
+    {
+      "date": "2025-08-04",
+      "facebook": 135,
+      "gmail": 194,
+      "email": 94
+    },
+    {
+      "date": "2025-08-05",
+      "facebook": 150,
+      "gmail": 206,
+      "email": 91
+    },
+    {
+      "date": "2025-08-06",
+      "facebook": 147,
+      "gmail": 237,
+      "email": 83
+    },
+    {
+      "date": "2025-08-07",
+      "facebook": 131,
+      "gmail": 234,
+      "email": 85
+    },
+    {
+      "date": "2025-08-08",
+      "facebook": 117,
+      "gmail": 145,
+      "email": 57
+    },
+    {
+      "date": "2025-08-09",
+      "facebook": 97,
+      "gmail": 149,
+      "email": 62
+    },
+    {
+      "date": "2025-08-10",
+      "facebook": 163,
+      "gmail": 215,
+      "email": 78
+    },
+    {
+      "date": "2025-08-11",
+      "facebook": 138,
+      "gmail": 237,
+      "email": 99
+    },
+    {
+      "date": "2025-08-12",
+      "facebook": 156,
+      "gmail": 231,
+      "email": 113
+    },
+    {
+      "date": "2025-08-13",
+      "facebook": 135,
+      "gmail": 179,
+      "email": 91
+    },
+    {
+      "date": "2025-08-14",
+      "facebook": 187,
+      "gmail": 175,
+      "email": 75
+    },
+    {
+      "date": "2025-08-15",
+      "facebook": 89,
+      "gmail": 154,
+      "email": 63
+    },
+    {
+      "date": "2025-08-16",
       "facebook": 114,
+      "gmail": 156,
+      "email": 63
+    },
+    {
+      "date": "2025-08-17",
+      "facebook": 164,
+      "gmail": 235,
+      "email": 100
+    },
+    {
+      "date": "2025-08-18",
+      "facebook": 140,
+      "gmail": 241,
+      "email": 93
+    },
+    {
+      "date": "2025-08-19",
+      "facebook": 158,
+      "gmail": 211,
+      "email": 104
+    },
+    {
+      "date": "2025-08-20",
+      "facebook": 154,
+      "gmail": 239,
+      "email": 98
+    },
+    {
+      "date": "2025-08-21",
+      "facebook": 121,
+      "gmail": 228,
+      "email": 83
+    },
+    {
+      "date": "2025-08-22",
+      "facebook": 101,
+      "gmail": 142,
+      "email": 74
+    },
+    {
+      "date": "2025-08-23",
+      "facebook": 99,
+      "gmail": 135,
+      "email": 51
+    },
+    {
+      "date": "2025-08-24",
+      "facebook": 159,
+      "gmail": 194,
+      "email": 96
+    },
+    {
+      "date": "2025-08-25",
+      "facebook": 135,
+      "gmail": 179,
+      "email": 88
+    },
+    {
+      "date": "2025-08-26",
+      "facebook": 149,
+      "gmail": 181,
+      "email": 97
+    },
+    {
+      "date": "2025-08-27",
+      "facebook": 154,
+      "gmail": 187,
+      "email": 91
+    },
+    {
+      "date": "2025-08-28",
+      "facebook": 149,
+      "gmail": 217,
+      "email": 89
+    },
+    {
+      "date": "2025-08-29",
+      "facebook": 115,
+      "gmail": 129,
+      "email": 64
+    },
+    {
+      "date": "2025-08-30",
+      "facebook": 108,
+      "gmail": 120,
+      "email": 62
+    },
+    {
+      "date": "2025-08-31",
+      "facebook": 168,
+      "gmail": 175,
+      "email": 99
+    },
+    {
+      "date": "2025-09-01",
+      "facebook": 156,
+      "gmail": 174,
+      "email": 86
+    },
+    {
+      "date": "2025-09-02",
+      "facebook": 166,
+      "gmail": 174,
+      "email": 76
+    },
+    {
+      "date": "2025-09-03",
+      "facebook": 152,
+      "gmail": 167,
+      "email": 83
+    },
+    {
+      "date": "2025-09-04",
+      "facebook": 162,
+      "gmail": 239,
+      "email": 100
+    },
+    {
+      "date": "2025-09-05",
+      "facebook": 104,
+      "gmail": 142,
+      "email": 50
+    },
+    {
+      "date": "2025-09-06",
+      "facebook": 95,
+      "gmail": 131,
+      "email": 50
+    },
+    {
+      "date": "2025-09-07",
+      "facebook": 143,
+      "gmail": 189,
+      "email": 76
+    },
+    {
+      "date": "2025-09-08",
+      "facebook": 133,
+      "gmail": 244,
+      "email": 73
+    },
+    {
+      "date": "2025-09-09",
+      "facebook": 138,
+      "gmail": 174,
+      "email": 104
+    },
+    {
+      "date": "2025-09-10",
+      "facebook": 139,
+      "gmail": 185,
+      "email": 78
+    },
+    {
+      "date": "2025-09-11",
+      "facebook": 117,
+      "gmail": 206,
+      "email": 70
+    },
+    {
+      "date": "2025-09-12",
+      "facebook": 104,
+      "gmail": 111,
+      "email": 60
+    },
+    {
+      "date": "2025-09-13",
+      "facebook": 113,
+      "gmail": 117,
+      "email": 59
+    },
+    {
+      "date": "2025-09-14",
+      "facebook": 146,
+      "gmail": 184,
+      "email": 106
+    },
+    {
+      "date": "2025-09-15",
+      "facebook": 166,
+      "gmail": 186,
+      "email": 79
+    },
+    {
+      "date": "2025-09-16",
+      "facebook": 145,
+      "gmail": 246,
+      "email": 77
+    },
+    {
+      "date": "2025-09-17",
+      "facebook": 132,
+      "gmail": 189,
+      "email": 91
+    },
+    {
+      "date": "2025-09-18",
+      "facebook": 163,
+      "gmail": 171,
+      "email": 72
+    },
+    {
+      "date": "2025-09-19",
+      "facebook": 94,
+      "gmail": 139,
+      "email": 64
+    },
+    {
+      "date": "2025-09-20",
+      "facebook": 111,
+      "gmail": 127,
+      "email": 62
+    },
+    {
+      "date": "2025-09-21",
+      "facebook": 149,
+      "gmail": 200,
+      "email": 96
+    },
+    {
+      "date": "2025-09-22",
+      "facebook": 150,
+      "gmail": 200,
+      "email": 94
+    },
+    {
+      "date": "2025-09-23",
+      "facebook": 132,
+      "gmail": 198,
+      "email": 88
+    },
+    {
+      "date": "2025-09-24",
+      "facebook": 145,
+      "gmail": 219,
+      "email": 93
+    },
+    {
+      "date": "2025-09-25",
+      "facebook": 149,
+      "gmail": 205,
+      "email": 89
+    },
+    {
+      "date": "2025-09-26",
+      "facebook": 81,
+      "gmail": 151,
+      "email": 59
+    },
+    {
+      "date": "2025-09-27",
+      "facebook": 95,
+      "gmail": 132,
+      "email": 70
+    },
+    {
+      "date": "2025-09-28",
+      "facebook": 141,
+      "gmail": 168,
+      "email": 65
+    },
+    {
+      "date": "2025-09-29",
+      "facebook": 120,
+      "gmail": 173,
+      "email": 85
+    },
+    {
+      "date": "2025-09-30",
+      "facebook": 156,
+      "gmail": 183,
+      "email": 81
+    },
+    {
+      "date": "2025-10-01",
+      "facebook": 130,
+      "gmail": 199,
+      "email": 65
+    },
+    {
+      "date": "2025-10-02",
+      "facebook": 155,
+      "gmail": 184,
+      "email": 93
+    },
+    {
+      "date": "2025-10-03",
+      "facebook": 109,
+      "gmail": 140,
+      "email": 63
+    },
+    {
+      "date": "2025-10-04",
+      "facebook": 84,
+      "gmail": 124,
+      "email": 55
+    },
+    {
+      "date": "2025-10-05",
+      "facebook": 149,
+      "gmail": 181,
+      "email": 81
+    },
+    {
+      "date": "2025-10-06",
+      "facebook": 160,
+      "gmail": 195,
+      "email": 90
+    },
+    {
+      "date": "2025-10-07",
+      "facebook": 137,
+      "gmail": 171,
+      "email": 92
+    },
+    {
+      "date": "2025-10-08",
+      "facebook": 149,
+      "gmail": 200,
+      "email": 75
+    },
+    {
+      "date": "2025-10-09",
+      "facebook": 114,
+      "gmail": 186,
+      "email": 84
+    },
+    {
+      "date": "2025-10-10",
+      "facebook": 94,
+      "gmail": 125,
+      "email": 55
+    },
+    {
+      "date": "2025-10-11",
+      "facebook": 103,
+      "gmail": 129,
+      "email": 51
+    },
+    {
+      "date": "2025-10-12",
+      "facebook": 127,
+      "gmail": 174,
+      "email": 78
+    },
+    {
+      "date": "2025-10-13",
+      "facebook": 128,
+      "gmail": 202,
+      "email": 78
+    },
+    {
+      "date": "2025-10-14",
+      "facebook": 131,
+      "gmail": 166,
+      "email": 72
+    },
+    {
+      "date": "2025-10-15",
+      "facebook": 135,
+      "gmail": 172,
+      "email": 76
+    },
+    {
+      "date": "2025-10-16",
+      "facebook": 154,
+      "gmail": 163,
+      "email": 78
+    },
+    {
+      "date": "2025-10-17",
+      "facebook": 92,
+      "gmail": 104,
+      "email": 56
+    },
+    {
+      "date": "2025-10-18",
+      "facebook": 83,
+      "gmail": 117,
+      "email": 43
+    },
+    {
+      "date": "2025-10-19",
+      "facebook": 136,
+      "gmail": 166,
+      "email": 74
+    },
+    {
+      "date": "2025-10-20",
+      "facebook": 119,
       "gmail": 154,
       "email": 66
     },
     {
-      "date": "2025-03-01",
-      "facebook": 96,
-      "gmail": 130,
-      "email": 58
+      "date": "2025-10-21",
+      "facebook": 141,
+      "gmail": 153,
+      "email": 67
     },
     {
-      "date": "2025-03-02",
+      "date": "2025-10-22",
+      "facebook": 118,
+      "gmail": 177,
+      "email": 82
+    },
+    {
+      "date": "2025-10-23",
+      "facebook": 117,
+      "gmail": 163,
+      "email": 77
+    },
+    {
+      "date": "2025-10-24",
+      "facebook": 93,
+      "gmail": 117,
+      "email": 43
+    },
+    {
+      "date": "2025-10-25",
+      "facebook": 89,
+      "gmail": 128,
+      "email": 51
+    },
+    {
+      "date": "2025-10-27",
+      "facebook": 151,
+      "gmail": 179,
+      "email": 90
+    },
+    {
+      "date": "2025-10-28",
+      "facebook": 134,
+      "gmail": 153,
+      "email": 89
+    },
+    {
+      "date": "2025-10-29",
       "facebook": 138,
-      "gmail": 186,
-      "email": 88
+      "gmail": 173,
+      "email": 82
     },
     {
-      "date": "2025-03-03",
-      "facebook": 108,
-      "gmail": 146,
-      "email": 64
-    },
-    {
-      "date": "2025-03-04",
-      "facebook": 124,
-      "gmail": 168,
-      "email": 78
-    },
-    {
-      "date": "2025-03-05",
-      "facebook": 90,
-      "gmail": 122,
-      "email": 52
-    },
-    {
-      "date": "2025-03-06",
-      "facebook": 146,
-      "gmail": 198,
-      "email": 92
-    },
-    {
-      "date": "2025-03-07",
-      "facebook": 116,
-      "gmail": 158,
+      "date": "2025-10-30",
+      "facebook": 115,
+      "gmail": 172,
       "email": 70
     },
     {
-      "date": "2025-03-08",
-      "facebook": 102,
-      "gmail": 138,
-      "email": 60
+      "date": "2025-10-31",
+      "facebook": 133,
+      "gmail": 141,
+      "email": 83
     },
     {
-      "date": "2025-03-09",
-      "facebook": 134,
-      "gmail": 182,
+      "date": "2025-11-01",
+      "facebook": 80,
+      "gmail": 107,
+      "email": 53
+    },
+    {
+      "date": "2025-11-02",
+      "facebook": 96,
+      "gmail": 128,
+      "email": 53
+    },
+    {
+      "date": "2025-11-03",
+      "facebook": 128,
+      "gmail": 171,
+      "email": 82
+    },
+    {
+      "date": "2025-11-04",
+      "facebook": 127,
+      "gmail": 155,
+      "email": 70
+    },
+    {
+      "date": "2025-11-05",
+      "facebook": 129,
+      "gmail": 161,
       "email": 86
     },
     {
-      "date": "2025-03-10",
-      "facebook": 110,
-      "gmail": 150,
+      "date": "2025-11-06",
+      "facebook": 115,
+      "gmail": 167,
+      "email": 75
+    },
+    {
+      "date": "2025-11-07",
+      "facebook": 105,
+      "gmail": 167,
+      "email": 62
+    },
+    {
+      "date": "2025-11-08",
+      "facebook": 84,
+      "gmail": 117,
+      "email": 50
+    },
+    {
+      "date": "2025-11-09",
+      "facebook": 95,
+      "gmail": 142,
+      "email": 56
+    },
+    {
+      "date": "2025-11-10",
+      "facebook": 142,
+      "gmail": 174,
+      "email": 75
+    },
+    {
+      "date": "2025-11-11",
+      "facebook": 141,
+      "gmail": 197,
+      "email": 61
+    },
+    {
+      "date": "2025-11-12",
+      "facebook": 119,
+      "gmail": 180,
+      "email": 60
+    },
+    {
+      "date": "2025-11-13",
+      "facebook": 114,
+      "gmail": 188,
+      "email": 77
+    },
+    {
+      "date": "2025-11-14",
+      "facebook": 130,
+      "gmail": 184,
+      "email": 80
+    },
+    {
+      "date": "2025-11-15",
+      "facebook": 91,
+      "gmail": 144,
+      "email": 48
+    },
+    {
+      "date": "2025-11-16",
+      "facebook": 98,
+      "gmail": 126,
+      "email": 50
+    },
+    {
+      "date": "2025-11-17",
+      "facebook": 115,
+      "gmail": 179,
       "email": 68
+    },
+    {
+      "date": "2025-11-18",
+      "facebook": 106,
+      "gmail": 139,
+      "email": 76
+    },
+    {
+      "date": "2025-11-19",
+      "facebook": 108,
+      "gmail": 161,
+      "email": 67
+    },
+    {
+      "date": "2025-11-20",
+      "facebook": 98,
+      "gmail": 169,
+      "email": 56
+    },
+    {
+      "date": "2025-11-21",
+      "facebook": 109,
+      "gmail": 156,
+      "email": 81
+    },
+    {
+      "date": "2025-11-22",
+      "facebook": 80,
+      "gmail": 141,
+      "email": 46
+    },
+    {
+      "date": "2025-11-23",
+      "facebook": 73,
+      "gmail": 121,
+      "email": 47
+    },
+    {
+      "date": "2025-11-24",
+      "facebook": 122,
+      "gmail": 151,
+      "email": 69
+    },
+    {
+      "date": "2025-11-25",
+      "facebook": 114,
+      "gmail": 192,
+      "email": 67
+    },
+    {
+      "date": "2025-11-26",
+      "facebook": 119,
+      "gmail": 181,
+      "email": 57
+    },
+    {
+      "date": "2025-11-27",
+      "facebook": 128,
+      "gmail": 172,
+      "email": 62
+    },
+    {
+      "date": "2025-11-28",
+      "facebook": 109,
+      "gmail": 169,
+      "email": 73
+    },
+    {
+      "date": "2025-11-29",
+      "facebook": 76,
+      "gmail": 100,
+      "email": 44
+    },
+    {
+      "date": "2025-11-30",
+      "facebook": 92,
+      "gmail": 88,
+      "email": 44
+    },
+    {
+      "date": "2025-12-01",
+      "facebook": 123,
+      "gmail": 178,
+      "email": 58
+    },
+    {
+      "date": "2025-12-02",
+      "facebook": 124,
+      "gmail": 150,
+      "email": 60
+    },
+    {
+      "date": "2025-12-03",
+      "facebook": 112,
+      "gmail": 174,
+      "email": 73
+    },
+    {
+      "date": "2025-12-04",
+      "facebook": 138,
+      "gmail": 174,
+      "email": 66
+    },
+    {
+      "date": "2025-12-05",
+      "facebook": 94,
+      "gmail": 142,
+      "email": 68
+    },
+    {
+      "date": "2025-12-06",
+      "facebook": 75,
+      "gmail": 114,
+      "email": 43
+    },
+    {
+      "date": "2025-12-07",
+      "facebook": 72,
+      "gmail": 137,
+      "email": 57
+    },
+    {
+      "date": "2025-12-08",
+      "facebook": 93,
+      "gmail": 199,
+      "email": 80
+    },
+    {
+      "date": "2025-12-09",
+      "facebook": 111,
+      "gmail": 156,
+      "email": 70
+    },
+    {
+      "date": "2025-12-10",
+      "facebook": 138,
+      "gmail": 146,
+      "email": 61
+    },
+    {
+      "date": "2025-12-11",
+      "facebook": 109,
+      "gmail": 152,
+      "email": 63
+    },
+    {
+      "date": "2025-12-12",
+      "facebook": 130,
+      "gmail": 178,
+      "email": 74
+    },
+    {
+      "date": "2025-12-13",
+      "facebook": 88,
+      "gmail": 136,
+      "email": 41
+    },
+    {
+      "date": "2025-12-14",
+      "facebook": 83,
+      "gmail": 97,
+      "email": 53
+    },
+    {
+      "date": "2025-12-15",
+      "facebook": 107,
+      "gmail": 159,
+      "email": 56
+    },
+    {
+      "date": "2025-12-16",
+      "facebook": 122,
+      "gmail": 148,
+      "email": 68
+    },
+    {
+      "date": "2025-12-17",
+      "facebook": 118,
+      "gmail": 152,
+      "email": 66
+    },
+    {
+      "date": "2025-12-18",
+      "facebook": 107,
+      "gmail": 162,
+      "email": 53
+    },
+    {
+      "date": "2025-12-19",
+      "facebook": 124,
+      "gmail": 167,
+      "email": 54
+    },
+    {
+      "date": "2025-12-20",
+      "facebook": 79,
+      "gmail": 122,
+      "email": 51
+    },
+    {
+      "date": "2025-12-21",
+      "facebook": 74,
+      "gmail": 108,
+      "email": 41
+    },
+    {
+      "date": "2025-12-22",
+      "facebook": 128,
+      "gmail": 180,
+      "email": 62
+    },
+    {
+      "date": "2025-12-23",
+      "facebook": 105,
+      "gmail": 134,
+      "email": 62
+    },
+    {
+      "date": "2025-12-24",
+      "facebook": 104,
+      "gmail": 132,
+      "email": 69
+    },
+    {
+      "date": "2025-12-25",
+      "facebook": 108,
+      "gmail": 165,
+      "email": 75
+    },
+    {
+      "date": "2025-12-26",
+      "facebook": 103,
+      "gmail": 163,
+      "email": 62
+    },
+    {
+      "date": "2025-12-27",
+      "facebook": 69,
+      "gmail": 92,
+      "email": 57
+    },
+    {
+      "date": "2025-12-28",
+      "facebook": 86,
+      "gmail": 96,
+      "email": 47
+    },
+    {
+      "date": "2025-12-29",
+      "facebook": 120,
+      "gmail": 155,
+      "email": 71
+    },
+    {
+      "date": "2025-12-30",
+      "facebook": 99,
+      "gmail": 173,
+      "email": 73
+    },
+    {
+      "date": "2025-12-31",
+      "facebook": 127,
+      "gmail": 144,
+      "email": 76
     }
   ]
 }
