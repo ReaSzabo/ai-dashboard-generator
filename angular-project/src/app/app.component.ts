@@ -1,8 +1,9 @@
 import { Component, inject, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { Chart, ChartConfiguration, ChartType, registerables } from 'chart.js';
+import {GenerateChartRequestBody,  GenerateChartResponse, ApiError } from './interfaces';
 
 // Register Chart.js components
 Chart.register(...registerables);
@@ -23,7 +24,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   inputText: string = '';
   responseText: string = '';
   errorMessage: string = '';
-  chartData: any = null;
+  chartData: GenerateChartResponse | null = null;
   chart: Chart | null = null;
 
   ngOnInit() {
@@ -41,10 +42,10 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     // Use natural language query instead of parameters
     const url = `http://localhost:3000/getData`;
-    const body = { query: "Gmail regisztrációk január 1-5 között" };
+    const body: GenerateChartRequestBody = { query: "Gmail regisztrációk január 1-5 között" };
     
-    this.http.post(url, body).subscribe({
-      next: (response: any) => {
+    this.http.post<GenerateChartResponse>(url, body).subscribe({
+      next: (response: GenerateChartResponse) => {
         console.log('Received data:', response);
         this.chartData = response;
         
@@ -65,7 +66,7 @@ export class AppComponent implements OnInit, AfterViewInit {
           }
         }, 200);
       },
-      error: (error: any) => {
+      error: (error: HttpErrorResponse) => {
         this.errorMessage = `Hiba a szerver elérésekor: ${error.message}`;
         console.error('HTTP Error:', error);
       }
@@ -102,54 +103,133 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     // Prepare data for Chart.js
     const dataArray = this.chartData[dataKey];
-    const labels = dataArray.map((item: any) => item.date);
+    if (!dataArray) {
+      console.error('No data array available');
+      return;
+    }
     const registrationType = this.chartData.type;
+    const chartType = this.chartData.chartType || 'line';
+    const aggregationType = this.chartData.aggregationType || 'total';
     
-    let data: number[] = [];
-    let label = '';
+    let datasets: any[] = [];
+    let labels: string[] = [];
 
     // Determine label based on data type
     const typeLabel = dataType === 'logins' ? 'bejelentkezés' : 'regisztráció';
     const typeLabelPlural = dataType === 'logins' ? 'bejelentkezések' : 'regisztrációk';
 
-    if (registrationType === 'all') {
-      // For all types, sum up all registration/login methods
-      data = dataArray.map((item: any) => 
-        (item.facebook || 0) + (item.gmail || 0) + (item.email || 0)
-      );
-      label = `Összes ${typeLabel}`;
+    // Set up labels (dates for line/bar charts, types for pie charts)
+    if (chartType === 'pie') {
+      if (aggregationType === 'breakdown' && registrationType === 'all') {
+        // Pie chart showing distribution of registration types
+        const totalFacebook = dataArray.reduce((sum: number, item: any) => sum + (item.facebook || 0), 0);
+        const totalGmail = dataArray.reduce((sum: number, item: any) => sum + (item.gmail || 0), 0);
+        const totalEmail = dataArray.reduce((sum: number, item: any) => sum + (item.email || 0), 0);
+        
+        labels = ['Facebook', 'Gmail', 'Email'];
+        datasets = [{
+          label: `${typeLabelPlural} típusok szerint`,
+          data: [totalFacebook, totalGmail, totalEmail],
+          backgroundColor: [
+            'rgba(59, 89, 152, 0.8)', // Facebook blue
+            'rgba(234, 67, 53, 0.8)',  // Gmail red
+            'rgba(52, 168, 83, 0.8)'   // Email green
+          ],
+          borderColor: [
+            'rgba(59, 89, 152, 1)',
+            'rgba(234, 67, 53, 1)',
+            'rgba(52, 168, 83, 1)'
+          ],
+          borderWidth: 1
+        }];
+      } else {
+        // Pie chart for daily breakdown of specific type or total
+        labels = dataArray.map((item: any) => item.date);
+        const pieData = registrationType === 'all' 
+          ? dataArray.map((item: any) => (item.facebook || 0) + (item.gmail || 0) + (item.email || 0))
+          : dataArray.map((item: any) => item[registrationType] || 0);
+        
+        datasets = [{
+          label: registrationType === 'all' ? `Összes ${typeLabel}` : `${registrationType} ${typeLabelPlural}`,
+          data: pieData,
+          backgroundColor: this.generateColors(pieData.length),
+          borderWidth: 1
+        }];
+      }
     } else {
-      // For specific type, use that data
-      data = dataArray.map((item: any) => item[registrationType] || 0);
-      label = `${registrationType.charAt(0).toUpperCase() + registrationType.slice(1)} ${typeLabelPlural}`;
+      // Line and bar charts
+      labels = dataArray.map((item: any) => item.date);
+      
+      if (aggregationType === 'breakdown' && registrationType === 'all') {
+        // Multiple datasets for each registration type
+        datasets = [
+          {
+            label: 'Facebook',
+            data: dataArray.map((item: any) => item.facebook || 0),
+            borderColor: 'rgba(59, 89, 152, 1)',
+            backgroundColor: 'rgba(59, 89, 152, 0.2)',
+            tension: chartType === 'line' ? 0.1 : undefined
+          },
+          {
+            label: 'Gmail',
+            data: dataArray.map((item: any) => item.gmail || 0),
+            borderColor: 'rgba(234, 67, 53, 1)',
+            backgroundColor: 'rgba(234, 67, 53, 0.2)',
+            tension: chartType === 'line' ? 0.1 : undefined
+          },
+          {
+            label: 'Email',
+            data: dataArray.map((item: any) => item.email || 0),
+            borderColor: 'rgba(52, 168, 83, 1)',
+            backgroundColor: 'rgba(52, 168, 83, 0.2)',
+            tension: chartType === 'line' ? 0.1 : undefined
+          }
+        ];
+      } else {
+        // Single dataset - either specific type or total
+        const singleData = registrationType === 'all' 
+          ? dataArray.map((item: any) => (item.facebook || 0) + (item.gmail || 0) + (item.email || 0))
+          : dataArray.map((item: any) => item[registrationType] || 0);
+        
+        const label = registrationType === 'all' 
+          ? `Összes ${typeLabel}`
+          : `${registrationType.charAt(0).toUpperCase() + registrationType.slice(1)} ${typeLabelPlural}`;
+        
+        datasets = [{
+          label: label,
+          data: singleData,
+          borderColor: chartType === 'bar' ? 'rgba(54, 162, 235, 1)' : 'rgb(75, 192, 192)',
+          backgroundColor: chartType === 'bar' ? 'rgba(54, 162, 235, 0.6)' : 'rgba(75, 192, 192, 0.2)',
+          tension: chartType === 'line' ? 0.1 : undefined,
+          borderWidth: 2
+        }];
+      }
     }
 
     const config: ChartConfiguration = {
-      type: 'line' as ChartType,
+      type: chartType as ChartType,
       data: {
         labels: labels,
-        datasets: [{
-          label: label,
-          data: data,
-          borderColor: 'rgb(75, 192, 192)',
-          backgroundColor: 'rgba(75, 192, 192, 0.2)',
-          tension: 0.1
-        }]
+        datasets: datasets
       },
       options: {
         responsive: true,
         plugins: {
           title: {
             display: true,
-            text: `Regisztrációs adatok (${this.chartData.dateRange?.startDate || ''} - ${this.chartData.dateRange?.endDate || ''})`
+            text: `${typeLabelPlural} adatok (${this.chartData.dateRange?.startDate || ''} - ${this.chartData.dateRange?.endDate || ''})`
+          },
+          legend: {
+            display: true,
+            position: chartType === 'pie' ? 'right' : 'top'
           }
         },
-        scales: {
+        scales: chartType === 'pie' ? {} : {
           y: {
             beginAtZero: true,
             title: {
               display: true,
-              text: 'Regisztrációk száma'
+              text: `${typeLabelPlural} száma`
             }
           },
           x: {
@@ -164,6 +244,26 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     this.chart = new Chart(ctx, config);
     console.log('Chart created successfully:', this.chart);
+  }
+
+  // Generate colors for pie chart segments
+  generateColors(count: number): string[] {
+    const colors = [
+      'rgba(255, 99, 132, 0.8)',
+      'rgba(54, 162, 235, 0.8)',
+      'rgba(255, 205, 86, 0.8)',
+      'rgba(75, 192, 192, 0.8)',
+      'rgba(153, 102, 255, 0.8)',
+      'rgba(255, 159, 64, 0.8)',
+      'rgba(199, 199, 199, 0.8)',
+      'rgba(83, 102, 255, 0.8)'
+    ];
+    
+    const result = [];
+    for (let i = 0; i < count; i++) {
+      result.push(colors[i % colors.length]);
+    }
+    return result;
   }
 
   // Debug method
@@ -193,11 +293,11 @@ export class AppComponent implements OnInit, AfterViewInit {
     }
 
     // Send natural language query to Express.js server
-    const url = `http://localhost:3000/getData`;
-    const body = { query: this.inputText };
+    const url = `http://localhost:3000/api/generate-chart`;
+    const body: GenerateChartRequestBody = { query: this.inputText };
     
-    this.http.post(url, body).subscribe({
-      next: (response: any) => {
+    this.http.post<GenerateChartResponse>(url, body).subscribe({
+      next: (response: GenerateChartResponse) => {
         console.log('Received data:', response);
         this.chartData = response;
         
@@ -218,7 +318,7 @@ export class AppComponent implements OnInit, AfterViewInit {
           }
         }, 200);
       },
-      error: (error: any) => {
+      error: (error: HttpErrorResponse) => {
         this.errorMessage = `Hiba a szerver elérésekor: ${error.message}`;
         console.error('HTTP Error:', error);
       }
