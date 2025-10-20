@@ -163,8 +163,8 @@ Kérés: "Mutasd meg a regisztrációkat lebontva típusonként január első he
 Válasz:
 {
   "dataType": "registrations",
-  "startDate": "2024-01-01",
-  "endDate": "2024-01-07",
+  "startDate": "2025-01-01",
+  "endDate": "2025-01-07",
   "registrationType": null,
   "chartType": "line",
   "aggregationType": "breakdown"
@@ -187,8 +187,8 @@ Kérés: "Facebook regisztrációk aránya februárban"
 Válasz:
 {
   "dataType": "registrations",
-  "startDate": "2024-02-01",
-  "endDate": "2024-02-29",
+  "startDate": "2025-02-01",
+  "endDate": "2025-02-29",
   "registrationType": "facebook",
   "chartType": "pie",
   "aggregationType": "total"
@@ -224,8 +224,11 @@ Most elemezd ezt a kérést:
 Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
 `;
 
+    // Start timing the OpenAI API call
+    const startTime = Date.now();
+    
     const completion = await openai.chat.completions.create({
-      model: "gpt-5-nano",
+      model: "gpt-4",
       messages: [
         {
           role: "system",
@@ -233,10 +236,15 @@ Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
         },
         {
           role: "user",
-          content: oldPrompt
+          content: prompt
         }
       ],
     });
+    
+    // Calculate and log the response time
+    const endTime = Date.now();
+    const responseTime = endTime - startTime;
+    
     console.log(oldPrompt)
     const responseText = completion.choices[0].message.content.trim();
     console.log('OpenAI response:', responseText);
@@ -250,6 +258,7 @@ Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
     
     // Parse JSON response
     const parsedParams = JSON.parse(cleanedResponse);
+    console.log(`OpenAI API válaszidő: ${responseTime}ms`);
     
     // Validate and set defaults
     return {
