@@ -89,7 +89,8 @@ async function parseNaturalLanguageQuery(userMessage) {
     const today = new Date();
     const todayString = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
     
-    const prompt = `
+    // OLD PROMPT VERSION (rule-based) - for comparison
+    const oldPrompt = `
 Mai dátum: ${todayString}
 
 Elemezd az alábbi felhasználói kérést és határozd meg a következő paramétereket egy JSON objektumban:
@@ -131,9 +132,100 @@ Felhasználói kérés: "${userMessage}"
 
 Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
 `;
+    
+    // NEW PROMPT VERSION (few-shot learning) - currently active
+    const prompt = `
+Mai dátum: ${todayString}
+
+Elemezd az alábbi felhasználói kérést és határozd meg a következő paramétereket egy JSON objektumban:
+
+- dataType: "registrations" vagy "logins"
+- startDate: YYYY-MM-DD formátumban
+- endDate: YYYY-MM-DD formátumban
+- registrationType: "facebook", "gmail", "email" vagy null
+- chartType: "line", "bar" vagy "pie"
+- aggregationType: "breakdown" vagy "total"
+
+Elérhető adatok: 2024-01-01 és 2025-12-31 között vannak regisztrációs és bejelentkezési adatok.
+Típusok: facebook, gmail, email
+
+Relatív dátumok (mai dátum: ${todayString}):
+- "múlt héten" → ${getLastWeekRange(today)}
+- "tavaly" → ${getLastYearRange(today)}
+- "ez év/idén" → ${getCurrentYearRange(today)}
+- "múlt hónap" → ${getLastMonthRange(today)}
+- "ez a hónap" → ${getCurrentMonthRange(today)}
+
+PÉLDÁK (few-shot learning):
+
+Példa 1:
+Kérés: "Mutasd meg a regisztrációkat lebontva típusonként január első hetében!"
+Válasz:
+{
+  "dataType": "registrations",
+  "startDate": "2024-01-01",
+  "endDate": "2024-01-07",
+  "registrationType": null,
+  "chartType": "line",
+  "aggregationType": "breakdown"
+}
+
+Példa 2:
+Kérés: "Hány bejelentkezés volt összesen tavaly?"
+Válasz:
+{
+  "dataType": "logins",
+  "startDate": "2024-01-01",
+  "endDate": "2024-12-31",
+  "registrationType": null,
+  "chartType": "bar",
+  "aggregationType": "total"
+}
+
+Példa 3:
+Kérés: "Facebook regisztrációk aránya februárban"
+Válasz:
+{
+  "dataType": "registrations",
+  "startDate": "2024-02-01",
+  "endDate": "2024-02-29",
+  "registrationType": "facebook",
+  "chartType": "pie",
+  "aggregationType": "total"
+}
+
+Példa 4:
+Kérés: "Hasonlítsd össze a gmail és facebook bejelentkezéseket múlt hónapban"
+Válasz:
+{
+  "dataType": "logins",
+  "startDate": "${getLastMonthRange(today).split(' és ')[0]}",
+  "endDate": "${getLastMonthRange(today).split(' és ')[1].replace(' között', '')}",
+  "registrationType": null,
+  "chartType": "bar",
+  "aggregationType": "breakdown"
+}
+
+Példa 5:
+Kérés: "Hogyan alakult az email regisztrációk száma idén?"
+Válasz:
+{
+  "dataType": "registrations",
+  "startDate": "${getCurrentYearRange(today).split(' és ')[0]}",
+  "endDate": "${getCurrentYearRange(today).split(' és ')[1].replace(' között', '')}",
+  "registrationType": "email",
+  "chartType": "line",
+  "aggregationType": "total"
+}
+
+Most elemezd ezt a kérést:
+"${userMessage}"
+
+Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
+`;
 
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-5-nano",
       messages: [
         {
           role: "system",
@@ -141,13 +233,11 @@ Válaszolj csak egy tiszta JSON objektummal, magyarázat nélkül:
         },
         {
           role: "user",
-          content: prompt
+          content: oldPrompt
         }
       ],
-      max_tokens: 150,
-      temperature: 0.1
     });
-
+    console.log(oldPrompt)
     const responseText = completion.choices[0].message.content.trim();
     console.log('OpenAI response:', responseText);
     
